@@ -1,0 +1,670 @@
+{
+  "generatedAt": "2026-06-26",
+  "profile": {
+    "uid": "demo-uid-009-kuldeep",
+    "email": "kuldeep.yadav97@gmail.com",
+    "phone": "7091307562",
+    "dob": "2003-09-05",
+    "gender": "Male",
+    "address": "12, Civil Lines, Jaipur",
+    "college": "Swami Keshvanand Institute of Technology, Management & Gramothan (SKIT), Jaipur",
+    "branch": "Electronics & Communication",
+    "year": "4th year",
+    "graduation_year": 2026,
+    "roll_no": "23ESKIT109",
+    "education": "B.Tech in Electronics & Communication",
+    "role": "Intern",
+    "position": "Full Stack Engineering",
+    "domain": "Web Development",
+    "department": "Developer",
+    "workMode": "Hybrid",
+    "internshipType": "Stipend-based",
+    "internshipDurationMonths": 6,
+    "joinDate": "2026-05-22",
+    "offerLetterRef": "TVI-2026-109",
+    "reportingTo": "Kritika Bhandari",
+    "status": "Active",
+    "ndaSigned": true,
+    "ndaSignedAt": "2026-05-29",
+    "assessmentScore": 87,
+    "assessmentTimeTakenSec": 656,
+    "assessmentFeedback": "Solid foundation in data structures and cloud basics; prompt engineering answers were underdeveloped.",
+    "skills": [
+      "Postman",
+      "GitLab",
+      "NumPy",
+      "Tableau",
+      "Azure",
+      "Java",
+      "HTML",
+      "Node.js",
+      "Kubernetes",
+      "Flask",
+      "Pandas",
+      "MySQL",
+      "PyTorch",
+      "Express.js"
+    ],
+    "certifications": [
+      "AWS Academy Graduate - Cloud Foundations (Training Badge)"
+    ],
+    "priorProjects": [
+      {
+        "title": "Smart Attendance System using Face Recognition",
+        "description": "Computer vision based attendance system using OpenCV and a CNN classifier, integrated with a Flask backend and SQLite database."
+      },
+      {
+        "title": "E-Commerce Recommendation Engine",
+        "description": "Collaborative filtering based product recommendation system built with Python, Scikit-learn and deployed via FastAPI."
+      }
+    ],
+    "workHistory": [
+      {
+        "company": "JECRC University, Jaipur",
+        "role": "Data Intern",
+        "period": "Jun 2025 - Jul 2025"
+      }
+    ],
+    "github": "github.com/kuldeep17",
+    "linkedin": "linkedin.com/in/kuldeep-yadav",
+    "summary": "Aspiring Web Development engineer seeking to apply technical and analytical skills in building scalable, real-world technology solutions.",
+    "chatUnreplyWarningCount": 3,
+    "meetingMissCount_2026_06": 2
+  },
+  "taskPerformance": {
+    "internName": "Kuldeep Yadav",
+    "totalTasks": 27,
+    "doneTasks": 15,
+    "pendingTasks": 12,
+    "overdueTasks": 0,
+    "onTimeCompletions": 15,
+    "lateCompletions": 0,
+    "totalEstimatedHours": 185.9,
+    "totalActualHours": 69.8,
+    "verifiedCount": 0,
+    "urgentCount": 0,
+    "subtasksTotal": 128,
+    "subtasksDone": 64,
+    "byPhase": [
+      {
+        "week": "Month 1 – Python, Flask & FastAPI",
+        "total": 8,
+        "done": 4
+      },
+      {
+        "week": "Month 2 – Data Analysis & Machine Learning",
+        "total": 8,
+        "done": 4
+      },
+      {
+        "week": "Month 3 – Deep Learning, NLP & Final Project",
+        "total": 7,
+        "done": 3
+      }
+    ],
+    "tasks": [
+      {
+        "title": "Python – File Handling & Exception Handling",
+        "project": "Python",
+        "week": "Month 1 – Python, Flask & FastAPI",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-06-27",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 6,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "FastAPI – ML Model Serving",
+        "project": "FastAPI",
+        "week": "Month 1 – Python, Flask & FastAPI",
+        "estHours": 8,
+        "actualHours": 3.7,
+        "deadline": "2026-06-16",
+        "completedAt": "2026-06-15",
+        "status": "Done",
+        "daysVsDeadline": -1,
+        "subDone": 6,
+        "subTotal": 6,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Flask – ML Model Integration",
+        "project": "Flask",
+        "week": "Month 1 – Python, Flask & FastAPI",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-07-29",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 5,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "FastAPI – Authentication & JWT",
+        "project": "FastAPI",
+        "week": "Month 1 – Python, Flask & FastAPI",
+        "estHours": 8,
+        "actualHours": 7.27,
+        "deadline": "2026-06-10",
+        "completedAt": "2026-06-09",
+        "status": "Done",
+        "daysVsDeadline": -1,
+        "subDone": 6,
+        "subTotal": 6,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "FastAPI – Introduction & Setup",
+        "project": "FastAPI",
+        "week": "Month 1 – Python, Flask & FastAPI",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-05-27",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 4,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Python – Dictionaries, Sets & Loops",
+        "project": "Python",
+        "week": "Month 1 – Python, Flask & FastAPI",
+        "estHours": 8,
+        "actualHours": 7.67,
+        "deadline": "2026-06-01",
+        "completedAt": "2026-06-01",
+        "status": "Done",
+        "daysVsDeadline": 0,
+        "subDone": 6,
+        "subTotal": 6,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "FastAPI – CRUD Operations",
+        "project": "FastAPI",
+        "week": "Month 1 – Python, Flask & FastAPI",
+        "estHours": 8,
+        "actualHours": 6.44,
+        "deadline": "2026-06-17",
+        "completedAt": "2026-06-15",
+        "status": "Done",
+        "daysVsDeadline": -2,
+        "subDone": 4,
+        "subTotal": 4,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Flask – Templates & Forms",
+        "project": "Flask",
+        "week": "Month 1 – Python, Flask & FastAPI",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-07-24",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 6,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "ML – Decision Tree & Random Forest",
+        "project": "Machine Learning",
+        "week": "Month 2 – Data Analysis & Machine Learning",
+        "estHours": 8,
+        "actualHours": 5.22,
+        "deadline": "2026-06-11",
+        "completedAt": "2026-06-09",
+        "status": "Done",
+        "daysVsDeadline": -2,
+        "subDone": 6,
+        "subTotal": 6,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Pandas – Data Cleaning",
+        "project": "Pandas",
+        "week": "Month 2 – Data Analysis & Machine Learning",
+        "estHours": 8,
+        "actualHours": 4.05,
+        "deadline": "2026-06-09",
+        "completedAt": "2026-06-09",
+        "status": "Done",
+        "daysVsDeadline": 0,
+        "subDone": 6,
+        "subTotal": 6,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Visualization – EDA Full Project",
+        "project": "Visualization",
+        "week": "Month 2 – Data Analysis & Machine Learning",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-07-12",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 6,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Matplotlib – Basic Charts",
+        "project": "Visualization",
+        "week": "Month 2 – Data Analysis & Machine Learning",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-07-26",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 6,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "ML – Linear & Logistic Regression",
+        "project": "Machine Learning",
+        "week": "Month 2 – Data Analysis & Machine Learning",
+        "estHours": 8,
+        "actualHours": 5.1,
+        "deadline": "2026-06-21",
+        "completedAt": "2026-06-18",
+        "status": "Done",
+        "daysVsDeadline": -3,
+        "subDone": 5,
+        "subTotal": 5,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "NumPy – Array Operations & Math",
+        "project": "NumPy",
+        "week": "Month 2 – Data Analysis & Machine Learning",
+        "estHours": 8,
+        "actualHours": 8.41,
+        "deadline": "2026-06-03",
+        "completedAt": "2026-06-01",
+        "status": "Done",
+        "daysVsDeadline": -2,
+        "subDone": 7,
+        "subTotal": 7,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Seaborn – Statistical Charts",
+        "project": "Visualization",
+        "week": "Month 2 – Data Analysis & Machine Learning",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-06-22",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 5,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "NumPy – Introduction & Arrays",
+        "project": "NumPy",
+        "week": "Month 2 – Data Analysis & Machine Learning",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-07-02",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 6,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Deep Learning – GAN Introduction (Bonus)",
+        "project": "Deep Learning",
+        "week": "Month 3 – Deep Learning, NLP & Final Project",
+        "estHours": 8,
+        "actualHours": 5.54,
+        "deadline": "2026-05-24",
+        "completedAt": "2026-05-22",
+        "status": "Done",
+        "daysVsDeadline": -2,
+        "subDone": 5,
+        "subTotal": 5,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Final Project – Frontend (Optional: Streamlit)",
+        "project": "Final Project",
+        "week": "Month 3 – Deep Learning, NLP & Final Project",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-06-18",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 4,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "NLP – Introduction & Text Preprocessing",
+        "project": "NLP",
+        "week": "Month 3 – Deep Learning, NLP & Final Project",
+        "estHours": 8,
+        "actualHours": 8.56,
+        "deadline": "2026-05-28",
+        "completedAt": "2026-05-27",
+        "status": "Done",
+        "daysVsDeadline": -1,
+        "subDone": 7,
+        "subTotal": 7,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Deep Learning – Review & Mini Project",
+        "project": "Deep Learning",
+        "week": "Month 3 – Deep Learning, NLP & Final Project",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-06-27",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 4,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Final Project – Data Prep & Model Training",
+        "project": "Final Project",
+        "week": "Month 3 – Deep Learning, NLP & Final Project",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-07-16",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 6,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Deep Learning – Transfer Learning",
+        "project": "Deep Learning",
+        "week": "Month 3 – Deep Learning, NLP & Final Project",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-07-07",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 6,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Final Project – Planning & Dataset",
+        "project": "Final Project",
+        "week": "Month 3 – Deep Learning, NLP & Final Project",
+        "estHours": 8,
+        "actualHours": 5.99,
+        "deadline": "2026-05-27",
+        "completedAt": "2026-05-26",
+        "status": "Done",
+        "daysVsDeadline": -1,
+        "subDone": 6,
+        "subTotal": 6,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Meeting: Project Discussion",
+        "project": null,
+        "week": null,
+        "estHours": 0.26,
+        "actualHours": 0.26,
+        "deadline": "2026-06-09",
+        "completedAt": "2026-06-09",
+        "status": "Done",
+        "daysVsDeadline": 0,
+        "subDone": 0,
+        "subTotal": 0,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Meeting: Project Discussion",
+        "project": null,
+        "week": null,
+        "estHours": 0.3,
+        "actualHours": 0.3,
+        "deadline": "2026-05-29",
+        "completedAt": "2026-05-29",
+        "status": "Done",
+        "daysVsDeadline": 0,
+        "subDone": 0,
+        "subTotal": 0,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Meeting: Team sync",
+        "project": null,
+        "week": null,
+        "estHours": 0.65,
+        "actualHours": 0.65,
+        "deadline": "2026-06-12",
+        "completedAt": "2026-06-12",
+        "status": "Done",
+        "daysVsDeadline": 0,
+        "subDone": 0,
+        "subTotal": 0,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Meeting: Task Discussion and Review",
+        "project": null,
+        "week": null,
+        "estHours": 0.68,
+        "actualHours": 0.68,
+        "deadline": "2026-06-03",
+        "completedAt": "2026-06-03",
+        "status": "Done",
+        "daysVsDeadline": 0,
+        "subDone": 0,
+        "subTotal": 0,
+        "verified": false,
+        "urgent": false
+      }
+    ],
+    "summary": "Kuldeep Yadav has completed 15 of 27 assigned tasks, with 12 still pending. Punctuality: 15 on-time completions vs 0 late. Subtasks completed: 64/128."
+  },
+  "attendance": {
+    "totalDays": 20,
+    "presentDays": 20,
+    "leaveDays": 0,
+    "lateArrivals": 4,
+    "lateDates": [
+      "2026-06-11 (10:25 AM)",
+      "2026-06-12 (11:33 AM)",
+      "2026-06-20 (10:38 AM)",
+      "2026-06-23 (10:20 AM)"
+    ],
+    "avgHours": 9.8,
+    "totalHours": 196.0,
+    "shortDays": 2,
+    "missedCheckouts": 2,
+    "idleWarningDays": 11,
+    "geoOutOfRangeDays": 10,
+    "firstDate": "2026-05-22",
+    "lastDate": "2026-06-26",
+    "earliestCheckIn": "09:38 AM",
+    "latestCheckOut": "10:34 PM"
+  },
+  "leaves": [],
+  "conduct": {
+    "disciplinaryIncidents": 0,
+    "incidentTypes": [],
+    "attendanceRequests": [],
+    "studyNotes": [],
+    "chatUnreplyWarnings": 3,
+    "meetingsMissed_June2026": 2
+  },
+  "notifications": {
+    "internName": "Kuldeep Yadav",
+    "total": 180,
+    "earliestAt": "2026-05-22T00:00:00T08:36:51.382Z",
+    "latestAt": "2026-06-26T00:00:00T06:02:13.006Z",
+    "byCategory": [
+      {
+        "name": "reminder",
+        "count": 86
+      },
+      {
+        "name": "task_timer_long_run",
+        "count": 21
+      },
+      {
+        "name": "task_completed_early",
+        "count": 13
+      },
+      {
+        "name": "chat_message",
+        "count": 8
+      },
+      {
+        "name": "idle_reminder",
+        "count": 11
+      },
+      {
+        "name": "check_in",
+        "count": 20
+      },
+      {
+        "name": "checkout_reminder",
+        "count": 7
+      },
+      {
+        "name": "check_out",
+        "count": 18
+      },
+      {
+        "name": "task_deadline_15m",
+        "count": 6
+      },
+      {
+        "name": "leave_approved",
+        "count": 0
+      }
+    ],
+    "summary": "Kuldeep Yadav received 180 notifications between 2026-05-22 and 2026-06-26, dominated by routine task-timer and attendance reminders, alongside 8 chat messages and 0 leave-related alert(s)."
+  },
+  "communication": {
+    "directMessages": [
+      {
+        "chatId": "mentor_9_kuldeep",
+        "chatType": "dm",
+        "partnerName": "Kritika Bhandari",
+        "partnerRole": "Mentor / AI Engineer",
+        "totalMessages": 54,
+        "internMessages": 35,
+        "partnerMessages": 19,
+        "firstMessageAt": "2026-05-22T00:00:00T05:48:17.711Z",
+        "lastMessageAt": "2026-06-26T00:00:00T05:41:25.181Z",
+        "activeDays": 4,
+        "internInitiatedConversations": 6,
+        "partnerInitiatedConversations": 3,
+        "internReplyMedianMin": 2.5,
+        "internReplyAvgMin": 10.2,
+        "internReplyP90Min": 24.4,
+        "internReplyFastestMin": 0,
+        "internReplySlowestMin": 27.4,
+        "internReplySampleCount": 8,
+        "partnerReplyMedianMin": 7.5,
+        "partnerReplyAvgMin": 31.3,
+        "partnerReplySampleCount": 7,
+        "summary": "A mentor-intern DM covering daily task assignments, meeting scheduling, and project discussions. Kuldeep communicates professionally and responds promptly to Kritika Bhandari.",
+        "notableExchanges": [
+          "Kuldeep: Good morning sir, could you please assign me today's task whenever you are available?",
+          "Kuldeep: Sir, we have finalized our project topic and started initial planning."
+        ]
+      },
+      {
+        "chatId": "hr_9",
+        "chatType": "dm",
+        "partnerName": "Sakshi Verma",
+        "partnerRole": "HR",
+        "totalMessages": 1,
+        "internMessages": 0,
+        "partnerMessages": 1,
+        "activeDays": 1,
+        "firstMessageAt": "2026-05-24T00:00:00T07:28:25.362Z",
+        "lastMessageAt": "2026-05-24T00:00:00T07:28:25.362Z",
+        "internInitiatedConversations": 0,
+        "partnerInitiatedConversations": 1,
+        "internReplyAvgMin": null,
+        "internReplyMedianMin": null,
+        "internReplyP90Min": null,
+        "internReplyFastestMin": null,
+        "internReplySlowestMin": null,
+        "internReplySampleCount": 0,
+        "partnerReplyAvgMin": null,
+        "partnerReplyMedianMin": null,
+        "partnerReplySampleCount": 0,
+        "summary": "A single one-way administrative HR nudge with no reply from the intern.",
+        "notableExchanges": [
+          "HR: Update your profile picture in employee portal."
+        ]
+      }
+    ],
+    "groupParticipation": [
+      {
+        "chatId": "channel_intern-group_mpxpkny6",
+        "groupName": "Intern Group Channel",
+        "totalMessages": 11,
+        "kuldeepMessages": 0,
+        "kuldeepActiveDays": 0,
+        "firstMessageAt": "2026-06-03T06:53:27.375Z",
+        "lastMessageAt": "2026-06-05T05:37:06.362Z",
+        "summary": "A small internal broadcast channel for company social-media links; this intern posted no messages here."
+      }
+    ],
+    "aggregate": {
+      "peopleConversedWith": 2,
+      "dmMessagesSent": 35
+    }
+  },
+  "gamesNote": "No game high-scores on record (per-play stats are stored client-side only; intern does not appear in any server leaderboard)."
+}

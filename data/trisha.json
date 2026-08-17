@@ -1,0 +1,669 @@
+{
+  "generatedAt": "2026-06-26",
+  "profile": {
+    "uid": "demo-uid-004-trisha",
+    "email": "trisha.mehta42@gmail.com",
+    "phone": "8168087603",
+    "dob": "2004-04-13",
+    "gender": "Female",
+    "address": "88, Jagatpura, Jaipur",
+    "college": "Malaviya National Institute of Technology (MNIT), Jaipur",
+    "branch": "Electronics & Communication",
+    "year": "3rd year",
+    "graduation_year": 2028,
+    "roll_no": "23ESKIT104",
+    "education": "B.Tech in Electronics & Communication",
+    "role": "Intern",
+    "position": "ML Engineering",
+    "domain": "Cloud and AI/ML",
+    "department": "Developer",
+    "workMode": "Hybrid",
+    "internshipType": "Stipend-based",
+    "internshipDurationMonths": 3,
+    "joinDate": "2026-06-04",
+    "offerLetterRef": "TVI-2026-104",
+    "reportingTo": "Devansh Soni",
+    "status": "Active",
+    "ndaSigned": true,
+    "ndaSignedAt": "2026-06-08",
+    "assessmentScore": 56,
+    "assessmentTimeTakenSec": 695,
+    "assessmentFeedback": "Good understanding of fundamental concepts in software engineering and ML. Excels in MCQs; some theoretical answers lack depth.",
+    "skills": [
+      "AWS (EC2, S3)",
+      "Tableau",
+      "C",
+      "PyTorch",
+      "JavaScript",
+      "Java",
+      "Spring Boot",
+      "Linux",
+      "NumPy",
+      "TensorFlow",
+      "Power BI",
+      "GitHub"
+    ],
+    "certifications": [
+      "HackerRank Problem Solving (Intermediate)",
+      "IBM Data Science Professional Certificate",
+      "Meta Front-End Developer Certificate"
+    ],
+    "priorProjects": [
+      {
+        "title": "Personal Finance Tracker",
+        "description": "React + Firebase based personal finance tracker with expense categorization and monthly analytics dashboards."
+      },
+      {
+        "title": "E-Commerce Recommendation Engine",
+        "description": "Collaborative filtering based product recommendation system built with Python, Scikit-learn and deployed via FastAPI."
+      }
+    ],
+    "workHistory": [
+      {
+        "company": "Malaviya National Institute of Technology (MNIT), Jaipur",
+        "role": "Web Dev Intern",
+        "period": "Jun 2025 - Jul 2025"
+      }
+    ],
+    "github": "github.com/trisha80",
+    "linkedin": "linkedin.com/in/trisha-mehta",
+    "summary": "Aspiring Cloud and AI/ML engineer seeking to apply technical and analytical skills in building scalable, real-world technology solutions.",
+    "chatUnreplyWarningCount": 4,
+    "meetingMissCount_2026_06": 3
+  },
+  "taskPerformance": {
+    "internName": "Trisha Mehta",
+    "totalTasks": 26,
+    "doneTasks": 6,
+    "pendingTasks": 20,
+    "overdueTasks": 0,
+    "onTimeCompletions": 6,
+    "lateCompletions": 0,
+    "totalEstimatedHours": 178.7,
+    "totalActualHours": 7.3,
+    "verifiedCount": 0,
+    "urgentCount": 0,
+    "subtasksTotal": 126,
+    "subtasksDone": 9,
+    "byPhase": [
+      {
+        "week": "Month 1 – Python, Flask & FastAPI",
+        "total": 7,
+        "done": 1
+      },
+      {
+        "week": "Month 2 – Data Analysis & Machine Learning",
+        "total": 6,
+        "done": 0
+      },
+      {
+        "week": "Month 3 – Deep Learning, NLP & Final Project",
+        "total": 9,
+        "done": 1
+      }
+    ],
+    "tasks": [
+      {
+        "title": "Flask – REST API with JSON",
+        "project": "Flask",
+        "week": "Month 1 – Python, Flask & FastAPI",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-08-13",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 7,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "FastAPI – Introduction & Setup",
+        "project": "FastAPI",
+        "week": "Month 1 – Python, Flask & FastAPI",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-07-08",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 5,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "FastAPI – Database with SQLAlchemy / SQLite",
+        "project": "FastAPI",
+        "week": "Month 1 – Python, Flask & FastAPI",
+        "estHours": 8,
+        "actualHours": 2.46,
+        "deadline": "2026-06-19",
+        "completedAt": "2026-06-16",
+        "status": "Done",
+        "daysVsDeadline": -3,
+        "subDone": 5,
+        "subTotal": 5,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Flask – Templates & Forms",
+        "project": "Flask",
+        "week": "Month 1 – Python, Flask & FastAPI",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-06-28",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 7,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "FastAPI – Authentication & JWT",
+        "project": "FastAPI",
+        "week": "Month 1 – Python, Flask & FastAPI",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-07-09",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 6,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Python – File Handling & Exception Handling",
+        "project": "Python",
+        "week": "Month 1 – Python, Flask & FastAPI",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-06-16",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 6,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Python – OOP + Final Mini Project",
+        "project": "Python",
+        "week": "Month 1 – Python, Flask & FastAPI",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-07-03",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 6,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "ML – K-Means Clustering (Unsupervised)",
+        "project": "Machine Learning",
+        "week": "Month 2 – Data Analysis & Machine Learning",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-07-11",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 5,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Pandas – DataFrame Basics",
+        "project": "Pandas",
+        "week": "Month 2 – Data Analysis & Machine Learning",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-08-05",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 4,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Pandas – Read/Write Files & EDA Project",
+        "project": "Pandas",
+        "week": "Month 2 – Data Analysis & Machine Learning",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-07-10",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 7,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "NumPy – Array Operations & Math",
+        "project": "NumPy",
+        "week": "Month 2 – Data Analysis & Machine Learning",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-07-17",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 4,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "ML – SVM & KNN",
+        "project": "Machine Learning",
+        "week": "Month 2 – Data Analysis & Machine Learning",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-07-06",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 7,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "ML – Save & Deploy Model",
+        "project": "Machine Learning",
+        "week": "Month 2 – Data Analysis & Machine Learning",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-06-18",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 7,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Deep Learning – CNN (Image Classification)",
+        "project": "Deep Learning",
+        "week": "Month 3 – Deep Learning, NLP & Final Project",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-06-19",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 7,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Deep Learning – Training & Optimization",
+        "project": "Deep Learning",
+        "week": "Month 3 – Deep Learning, NLP & Final Project",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-07-02",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 7,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Final Project – Deploy & Submit",
+        "project": "Final Project",
+        "week": "Month 3 – Deep Learning, NLP & Final Project",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-07-31",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 6,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Final Project – FastAPI Backend",
+        "project": "Final Project",
+        "week": "Month 3 – Deep Learning, NLP & Final Project",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-07-28",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 4,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Final Project – Planning & Dataset",
+        "project": "Final Project",
+        "week": "Month 3 – Deep Learning, NLP & Final Project",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-06-16",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 5,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "NLP – Text Representation",
+        "project": "NLP",
+        "week": "Month 3 – Deep Learning, NLP & Final Project",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-07-01",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 4,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Deep Learning – Transfer Learning",
+        "project": "Deep Learning",
+        "week": "Month 3 – Deep Learning, NLP & Final Project",
+        "estHours": 8,
+        "actualHours": 2.1,
+        "deadline": "2026-06-24",
+        "completedAt": "2026-06-23",
+        "status": "Done",
+        "daysVsDeadline": -1,
+        "subDone": 4,
+        "subTotal": 4,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Final Project – Frontend (Optional: Streamlit)",
+        "project": "Final Project",
+        "week": "Month 3 – Deep Learning, NLP & Final Project",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-07-26",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 7,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Deep Learning – RNN & LSTM (Sequential Data)",
+        "project": "Deep Learning",
+        "week": "Month 3 – Deep Learning, NLP & Final Project",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-07-11",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 6,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Meeting: Team sync",
+        "project": null,
+        "week": null,
+        "estHours": 0.76,
+        "actualHours": 0.76,
+        "deadline": "2026-06-13",
+        "completedAt": "2026-06-13",
+        "status": "Done",
+        "daysVsDeadline": 0,
+        "subDone": 0,
+        "subTotal": 0,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Meeting: Team sync",
+        "project": null,
+        "week": null,
+        "estHours": 0.83,
+        "actualHours": 0.83,
+        "deadline": "2026-06-12",
+        "completedAt": "2026-06-12",
+        "status": "Done",
+        "daysVsDeadline": 0,
+        "subDone": 0,
+        "subTotal": 0,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Meeting: Team sync",
+        "project": null,
+        "week": null,
+        "estHours": 0.29,
+        "actualHours": 0.29,
+        "deadline": "2026-06-17",
+        "completedAt": "2026-06-17",
+        "status": "Done",
+        "daysVsDeadline": 0,
+        "subDone": 0,
+        "subTotal": 0,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Meeting: Team sync",
+        "project": null,
+        "week": null,
+        "estHours": 0.86,
+        "actualHours": 0.86,
+        "deadline": "2026-06-12",
+        "completedAt": "2026-06-12",
+        "status": "Done",
+        "daysVsDeadline": 0,
+        "subDone": 0,
+        "subTotal": 0,
+        "verified": false,
+        "urgent": false
+      }
+    ],
+    "summary": "Trisha Mehta has completed 6 of 26 assigned tasks, with 20 still pending. Punctuality: 6 on-time completions vs 0 late. Subtasks completed: 9/126."
+  },
+  "attendance": {
+    "totalDays": 24,
+    "presentDays": 22,
+    "leaveDays": 2,
+    "lateArrivals": 6,
+    "lateDates": [
+      "2026-06-06 (10:56 AM)",
+      "2026-06-16 (11:32 AM)",
+      "2026-06-17 (11:38 AM)",
+      "2026-06-18 (10:29 AM)",
+      "2026-06-21 (11:28 AM)",
+      "2026-06-26 (11:44 AM)"
+    ],
+    "avgHours": 8.1,
+    "totalHours": 178.2,
+    "shortDays": 0,
+    "missedCheckouts": 1,
+    "idleWarningDays": 12,
+    "geoOutOfRangeDays": 18,
+    "firstDate": "2026-06-04",
+    "lastDate": "2026-06-26",
+    "earliestCheckIn": "09:39 AM",
+    "latestCheckOut": "6:48 PM"
+  },
+  "leaves": [
+    {
+      "leaveType": "Sick Leave",
+      "startDate": "2026-06-25",
+      "endDate": "2026-06-25",
+      "appliedAt": "2026-06-24T00:00:00Z",
+      "duration": 2,
+      "status": "Approved",
+      "reason": "Requesting leave to participate in a placement drive at my college.",
+      "paid": false,
+      "daysInAdvance": 4
+    }
+  ],
+  "conduct": {
+    "disciplinaryIncidents": 0,
+    "incidentTypes": [],
+    "attendanceRequests": [],
+    "studyNotes": [],
+    "chatUnreplyWarnings": 4,
+    "meetingsMissed_June2026": 3
+  },
+  "notifications": {
+    "internName": "Trisha Mehta",
+    "total": 155,
+    "earliestAt": "2026-06-04T00:00:00T08:36:51.382Z",
+    "latestAt": "2026-06-26T00:00:00T06:02:13.006Z",
+    "byCategory": [
+      {
+        "name": "reminder",
+        "count": 64
+      },
+      {
+        "name": "task_timer_long_run",
+        "count": 23
+      },
+      {
+        "name": "task_completed_early",
+        "count": 18
+      },
+      {
+        "name": "chat_message",
+        "count": 20
+      },
+      {
+        "name": "idle_reminder",
+        "count": 6
+      },
+      {
+        "name": "check_in",
+        "count": 22
+      },
+      {
+        "name": "checkout_reminder",
+        "count": 10
+      },
+      {
+        "name": "check_out",
+        "count": 21
+      },
+      {
+        "name": "task_deadline_15m",
+        "count": 3
+      },
+      {
+        "name": "leave_approved",
+        "count": 1
+      }
+    ],
+    "summary": "Trisha Mehta received 155 notifications between 2026-06-04 and 2026-06-26, dominated by routine task-timer and attendance reminders, alongside 20 chat messages and 1 leave-related alert(s)."
+  },
+  "communication": {
+    "directMessages": [
+      {
+        "chatId": "mentor_4_trisha",
+        "chatType": "dm",
+        "partnerName": "Devansh Soni",
+        "partnerRole": "Mentor / AI Engineer",
+        "totalMessages": 39,
+        "internMessages": 25,
+        "partnerMessages": 14,
+        "firstMessageAt": "2026-06-04T00:00:00T05:48:17.711Z",
+        "lastMessageAt": "2026-06-26T00:00:00T05:41:25.181Z",
+        "activeDays": 6,
+        "internInitiatedConversations": 7,
+        "partnerInitiatedConversations": 0,
+        "internReplyMedianMin": 6.9,
+        "internReplyAvgMin": 5.6,
+        "internReplyP90Min": 18.9,
+        "internReplyFastestMin": 0,
+        "internReplySlowestMin": 18.6,
+        "internReplySampleCount": 11,
+        "partnerReplyMedianMin": 8.3,
+        "partnerReplyAvgMin": 29.8,
+        "partnerReplySampleCount": 12,
+        "summary": "A mentor-intern DM covering daily task assignments, meeting scheduling, and project discussions. Trisha communicates professionally and responds promptly to Devansh Soni.",
+        "notableExchanges": [
+          "Trisha: Good morning sir, could you please assign me today's task whenever you are available?",
+          "Trisha: Sir, we have finalized our project topic and started initial planning."
+        ]
+      },
+      {
+        "chatId": "hr_4",
+        "chatType": "dm",
+        "partnerName": "Mridula Gupta",
+        "partnerRole": "HR",
+        "totalMessages": 1,
+        "internMessages": 0,
+        "partnerMessages": 1,
+        "activeDays": 1,
+        "firstMessageAt": "2026-06-06T00:00:00T07:28:25.362Z",
+        "lastMessageAt": "2026-06-06T00:00:00T07:28:25.362Z",
+        "internInitiatedConversations": 0,
+        "partnerInitiatedConversations": 1,
+        "internReplyAvgMin": null,
+        "internReplyMedianMin": null,
+        "internReplyP90Min": null,
+        "internReplyFastestMin": null,
+        "internReplySlowestMin": null,
+        "internReplySampleCount": 0,
+        "partnerReplyAvgMin": null,
+        "partnerReplyMedianMin": null,
+        "partnerReplySampleCount": 0,
+        "summary": "A single one-way administrative HR nudge with no reply from the intern.",
+        "notableExchanges": [
+          "HR: Update your profile picture in employee portal."
+        ]
+      }
+    ],
+    "groupParticipation": [
+      {
+        "chatId": "channel_intern-group_mpxpkny6",
+        "groupName": "Intern Group Channel",
+        "totalMessages": 11,
+        "trishaMessages": 0,
+        "trishaActiveDays": 0,
+        "firstMessageAt": "2026-06-03T06:53:27.375Z",
+        "lastMessageAt": "2026-06-05T05:37:06.362Z",
+        "summary": "A small internal broadcast channel for company social-media links; this intern posted no messages here."
+      }
+    ],
+    "aggregate": {
+      "peopleConversedWith": 3,
+      "dmMessagesSent": 25
+    }
+  },
+  "gamesNote": "No game high-scores on record (per-play stats are stored client-side only; intern does not appear in any server leaderboard)."
+}

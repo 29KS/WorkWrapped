@@ -1,0 +1,699 @@
+{
+  "generatedAt": "2026-06-26",
+  "profile": {
+    "uid": "demo-uid-001-tanushree",
+    "email": "tanushree.verma53@gmail.com",
+    "phone": "7333872624",
+    "dob": "2005-04-23",
+    "gender": "Female",
+    "address": "12, Civil Lines, Jaipur",
+    "college": "Swami Keshvanand Institute of Technology, Management & Gramothan (SKIT), Jaipur",
+    "branch": "Information Technology",
+    "year": "2nd year",
+    "graduation_year": 2026,
+    "roll_no": "23ESKIT101",
+    "education": "B.Tech in Information Technology",
+    "role": "Intern",
+    "position": "AI/ML Engineering",
+    "domain": "Cloud and AI/ML",
+    "department": "Developer",
+    "workMode": "Hybrid",
+    "internshipType": "Stipend-based",
+    "internshipDurationMonths": 3,
+    "joinDate": "2026-06-02",
+    "offerLetterRef": "TVI-2026-101",
+    "reportingTo": "Ananya Rathi",
+    "status": "Active",
+    "ndaSigned": true,
+    "ndaSignedAt": "2026-06-03",
+    "assessmentScore": 93,
+    "assessmentTimeTakenSec": 627,
+    "assessmentFeedback": "Good understanding of fundamental concepts in software engineering and ML. Excels in MCQs; some theoretical answers lack depth.",
+    "skills": [
+      "React",
+      "Linux",
+      "Python",
+      "MySQL",
+      "Power BI",
+      "AWS (EC2, S3)",
+      "Java",
+      "Azure",
+      "NumPy",
+      "C++",
+      "C"
+    ],
+    "certifications": [
+      "Google Data Analytics Professional Certificate"
+    ],
+    "priorProjects": [
+      {
+        "title": "E-Commerce Recommendation Engine",
+        "description": "Collaborative filtering based product recommendation system built with Python, Scikit-learn and deployed via FastAPI."
+      },
+      {
+        "title": "PartyRock IntelliTrade Application",
+        "description": "AI-powered trading assistant on AWS PartyRock with prompt engineering. Runner-Up in AWS Academy 'Hack the Future with GenAI' hackathon among 116+ teams."
+      }
+    ],
+    "workHistory": [
+      {
+        "company": "Manipal University Jaipur",
+        "role": "Java Intern",
+        "period": "Jun 2025 - Jul 2025"
+      }
+    ],
+    "github": "github.com/tanushree21",
+    "linkedin": "linkedin.com/in/tanushree-verma",
+    "summary": "Aspiring Cloud and AI/ML engineer seeking to apply technical and analytical skills in building scalable, real-world technology solutions.",
+    "chatUnreplyWarningCount": 2,
+    "meetingMissCount_2026_06": 0
+  },
+  "taskPerformance": {
+    "internName": "Tanushree Verma",
+    "totalTasks": 28,
+    "doneTasks": 11,
+    "pendingTasks": 17,
+    "overdueTasks": 0,
+    "onTimeCompletions": 11,
+    "lateCompletions": 0,
+    "totalEstimatedHours": 194.2,
+    "totalActualHours": 47.5,
+    "verifiedCount": 0,
+    "urgentCount": 0,
+    "subtasksTotal": 136,
+    "subtasksDone": 41,
+    "byPhase": [
+      {
+        "week": "Month 1 – Python, Flask & FastAPI",
+        "total": 10,
+        "done": 5
+      },
+      {
+        "week": "Month 2 – Data Analysis & Machine Learning",
+        "total": 8,
+        "done": 0
+      },
+      {
+        "week": "Month 3 – Deep Learning, NLP & Final Project",
+        "total": 6,
+        "done": 2
+      }
+    ],
+    "tasks": [
+      {
+        "title": "FastAPI – Pydantic Models & Request Body",
+        "project": "FastAPI",
+        "week": "Month 1 – Python, Flask & FastAPI",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-07-07",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 6,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Flask – Introduction & First App",
+        "project": "Flask",
+        "week": "Month 1 – Python, Flask & FastAPI",
+        "estHours": 8,
+        "actualHours": 4.37,
+        "deadline": "2026-06-15",
+        "completedAt": "2026-06-10",
+        "status": "Done",
+        "daysVsDeadline": -5,
+        "subDone": 6,
+        "subTotal": 6,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "FastAPI – Authentication & JWT",
+        "project": "FastAPI",
+        "week": "Month 1 – Python, Flask & FastAPI",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-07-05",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 7,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Flask – REST API with JSON",
+        "project": "Flask",
+        "week": "Month 1 – Python, Flask & FastAPI",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-08-09",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 7,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Python – Functions & Modules",
+        "project": "Python",
+        "week": "Month 1 – Python, Flask & FastAPI",
+        "estHours": 8,
+        "actualHours": 6.45,
+        "deadline": "2026-06-12",
+        "completedAt": "2026-06-12",
+        "status": "Done",
+        "daysVsDeadline": 0,
+        "subDone": 6,
+        "subTotal": 6,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "FastAPI – Path Params, Query Params & Routing",
+        "project": "FastAPI",
+        "week": "Month 1 – Python, Flask & FastAPI",
+        "estHours": 8,
+        "actualHours": 6.79,
+        "deadline": "2026-06-26",
+        "completedAt": "2026-06-21",
+        "status": "Done",
+        "daysVsDeadline": -5,
+        "subDone": 6,
+        "subTotal": 6,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Python – Intro & Setup",
+        "project": "Python",
+        "week": "Month 1 – Python, Flask & FastAPI",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-06-12",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 4,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Python – Operators & Conditions",
+        "project": "Python",
+        "week": "Month 1 – Python, Flask & FastAPI",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-07-20",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 6,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Python – OOP + Final Mini Project",
+        "project": "Python",
+        "week": "Month 1 – Python, Flask & FastAPI",
+        "estHours": 8,
+        "actualHours": 6.86,
+        "deadline": "2026-06-22",
+        "completedAt": "2026-06-18",
+        "status": "Done",
+        "daysVsDeadline": -4,
+        "subDone": 4,
+        "subTotal": 4,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Python – File Handling & Exception Handling",
+        "project": "Python",
+        "week": "Month 1 – Python, Flask & FastAPI",
+        "estHours": 8,
+        "actualHours": 2.81,
+        "deadline": "2026-06-23",
+        "completedAt": "2026-06-19",
+        "status": "Done",
+        "daysVsDeadline": -4,
+        "subDone": 7,
+        "subTotal": 7,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "ML – K-Means Clustering (Unsupervised)",
+        "project": "Machine Learning",
+        "week": "Month 2 – Data Analysis & Machine Learning",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-07-12",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 4,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Pandas – Data Cleaning",
+        "project": "Pandas",
+        "week": "Month 2 – Data Analysis & Machine Learning",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-06-29",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 6,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Matplotlib – Subplots & Customization",
+        "project": "Visualization",
+        "week": "Month 2 – Data Analysis & Machine Learning",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-06-29",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 7,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "NumPy – Array Operations & Math",
+        "project": "NumPy",
+        "week": "Month 2 – Data Analysis & Machine Learning",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-07-30",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 5,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "ML – Data Preprocessing & Pipelines",
+        "project": "Machine Learning",
+        "week": "Month 2 – Data Analysis & Machine Learning",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-07-03",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 6,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "ML – Introduction & Scikit-learn Setup",
+        "project": "Machine Learning",
+        "week": "Month 2 – Data Analysis & Machine Learning",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-07-26",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 7,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "NumPy – Introduction & Arrays",
+        "project": "NumPy",
+        "week": "Month 2 – Data Analysis & Machine Learning",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-07-18",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 5,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Visualization – EDA Full Project",
+        "project": "Visualization",
+        "week": "Month 2 – Data Analysis & Machine Learning",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-08-06",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 4,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Deep Learning – Transfer Learning",
+        "project": "Deep Learning",
+        "week": "Month 3 – Deep Learning, NLP & Final Project",
+        "estHours": 8,
+        "actualHours": 9.47,
+        "deadline": "2026-06-10",
+        "completedAt": "2026-06-09",
+        "status": "Done",
+        "daysVsDeadline": -1,
+        "subDone": 6,
+        "subTotal": 6,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Deep Learning – GAN Introduction (Bonus)",
+        "project": "Deep Learning",
+        "week": "Month 3 – Deep Learning, NLP & Final Project",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-08-11",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 4,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Final Project – Planning & Dataset",
+        "project": "Final Project",
+        "week": "Month 3 – Deep Learning, NLP & Final Project",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-06-16",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 6,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "NLP – Sentiment Analysis",
+        "project": "NLP",
+        "week": "Month 3 – Deep Learning, NLP & Final Project",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-07-15",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 7,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Deep Learning – Model Save, Load & Deploy",
+        "project": "Deep Learning",
+        "week": "Month 3 – Deep Learning, NLP & Final Project",
+        "estHours": 8,
+        "actualHours": 8.51,
+        "deadline": "2026-06-22",
+        "completedAt": "2026-06-22",
+        "status": "Done",
+        "daysVsDeadline": 0,
+        "subDone": 6,
+        "subTotal": 6,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "NLP – Text Representation",
+        "project": "NLP",
+        "week": "Month 3 – Deep Learning, NLP & Final Project",
+        "estHours": 8,
+        "actualHours": null,
+        "deadline": "2026-08-05",
+        "completedAt": null,
+        "status": "Pending",
+        "daysVsDeadline": null,
+        "subDone": 0,
+        "subTotal": 4,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Meeting: Team sync",
+        "project": null,
+        "week": null,
+        "estHours": 0.87,
+        "actualHours": 0.87,
+        "deadline": "2026-06-11",
+        "completedAt": "2026-06-11",
+        "status": "Done",
+        "daysVsDeadline": 0,
+        "subDone": 0,
+        "subTotal": 0,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Meeting: Task Discussion and Review",
+        "project": null,
+        "week": null,
+        "estHours": 0.5,
+        "actualHours": 0.5,
+        "deadline": "2026-06-06",
+        "completedAt": "2026-06-06",
+        "status": "Done",
+        "daysVsDeadline": 0,
+        "subDone": 0,
+        "subTotal": 0,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Meeting: Project Discussion",
+        "project": null,
+        "week": null,
+        "estHours": 0.46,
+        "actualHours": 0.46,
+        "deadline": "2026-06-21",
+        "completedAt": "2026-06-21",
+        "status": "Done",
+        "daysVsDeadline": 0,
+        "subDone": 0,
+        "subTotal": 0,
+        "verified": false,
+        "urgent": false
+      },
+      {
+        "title": "Meeting: Task Discussion and Review",
+        "project": null,
+        "week": null,
+        "estHours": 0.39,
+        "actualHours": 0.39,
+        "deadline": "2026-06-11",
+        "completedAt": "2026-06-11",
+        "status": "Done",
+        "daysVsDeadline": 0,
+        "subDone": 0,
+        "subTotal": 0,
+        "verified": false,
+        "urgent": false
+      }
+    ],
+    "summary": "Tanushree Verma has completed 11 of 28 assigned tasks, with 17 still pending. Punctuality: 11 on-time completions vs 0 late. Subtasks completed: 41/136."
+  },
+  "attendance": {
+    "totalDays": 21,
+    "presentDays": 19,
+    "leaveDays": 2,
+    "lateArrivals": 9,
+    "lateDates": [
+      "2026-06-04 (10:08 AM)",
+      "2026-06-07 (11:33 AM)",
+      "2026-06-09 (10:04 AM)",
+      "2026-06-11 (11:42 AM)",
+      "2026-06-18 (11:07 AM)",
+      "2026-06-19 (10:45 AM)",
+      "2026-06-21 (11:13 AM)",
+      "2026-06-22 (11:28 AM)",
+      "2026-06-23 (11:35 AM)"
+    ],
+    "avgHours": 8.3,
+    "totalHours": 157.7,
+    "shortDays": 2,
+    "missedCheckouts": 1,
+    "idleWarningDays": 11,
+    "geoOutOfRangeDays": 7,
+    "firstDate": "2026-06-02",
+    "lastDate": "2026-06-26",
+    "earliestCheckIn": "09:30 AM",
+    "latestCheckOut": "6:45 PM"
+  },
+  "leaves": [
+    {
+      "leaveType": "Casual Leave",
+      "startDate": "2026-06-22",
+      "endDate": "2026-06-22",
+      "appliedAt": "2026-06-20T00:00:00Z",
+      "duration": 2,
+      "status": "Approved",
+      "reason": "Requesting leave to participate in a placement drive at my college.",
+      "paid": false,
+      "daysInAdvance": 1
+    }
+  ],
+  "conduct": {
+    "disciplinaryIncidents": 0,
+    "incidentTypes": [],
+    "attendanceRequests": [],
+    "studyNotes": [],
+    "chatUnreplyWarnings": 2,
+    "meetingsMissed_June2026": 0
+  },
+  "notifications": {
+    "internName": "Tanushree Verma",
+    "total": 185,
+    "earliestAt": "2026-06-02T00:00:00T08:36:51.382Z",
+    "latestAt": "2026-06-26T00:00:00T06:02:13.006Z",
+    "byCategory": [
+      {
+        "name": "reminder",
+        "count": 78
+      },
+      {
+        "name": "task_timer_long_run",
+        "count": 25
+      },
+      {
+        "name": "task_completed_early",
+        "count": 11
+      },
+      {
+        "name": "chat_message",
+        "count": 9
+      },
+      {
+        "name": "idle_reminder",
+        "count": 16
+      },
+      {
+        "name": "check_in",
+        "count": 19
+      },
+      {
+        "name": "checkout_reminder",
+        "count": 10
+      },
+      {
+        "name": "check_out",
+        "count": 18
+      },
+      {
+        "name": "task_deadline_15m",
+        "count": 2
+      },
+      {
+        "name": "leave_approved",
+        "count": 1
+      }
+    ],
+    "summary": "Tanushree Verma received 185 notifications between 2026-06-02 and 2026-06-26, dominated by routine task-timer and attendance reminders, alongside 9 chat messages and 1 leave-related alert(s)."
+  },
+  "communication": {
+    "directMessages": [
+      {
+        "chatId": "mentor_1_tanushree",
+        "chatType": "dm",
+        "partnerName": "Ananya Rathi",
+        "partnerRole": "Mentor / AI Engineer",
+        "totalMessages": 50,
+        "internMessages": 30,
+        "partnerMessages": 20,
+        "firstMessageAt": "2026-06-02T00:00:00T05:48:17.711Z",
+        "lastMessageAt": "2026-06-26T00:00:00T05:41:25.181Z",
+        "activeDays": 10,
+        "internInitiatedConversations": 5,
+        "partnerInitiatedConversations": 1,
+        "internReplyMedianMin": 1.2,
+        "internReplyAvgMin": 10.2,
+        "internReplyP90Min": 12.1,
+        "internReplyFastestMin": 0,
+        "internReplySlowestMin": 22.3,
+        "internReplySampleCount": 5,
+        "partnerReplyMedianMin": 7.1,
+        "partnerReplyAvgMin": 49.3,
+        "partnerReplySampleCount": 6,
+        "summary": "A mentor-intern DM covering daily task assignments, meeting scheduling, and project discussions. Tanushree communicates professionally and responds promptly to Ananya Rathi.",
+        "notableExchanges": [
+          "Tanushree: Good morning sir, could you please assign me today's task whenever you are available?",
+          "Tanushree: Sir, we have finalized our project topic and started initial planning."
+        ]
+      },
+      {
+        "chatId": "hr_1",
+        "chatType": "dm",
+        "partnerName": "Mridula Gupta",
+        "partnerRole": "HR",
+        "totalMessages": 1,
+        "internMessages": 0,
+        "partnerMessages": 1,
+        "activeDays": 1,
+        "firstMessageAt": "2026-06-04T00:00:00T07:28:25.362Z",
+        "lastMessageAt": "2026-06-04T00:00:00T07:28:25.362Z",
+        "internInitiatedConversations": 0,
+        "partnerInitiatedConversations": 1,
+        "internReplyAvgMin": null,
+        "internReplyMedianMin": null,
+        "internReplyP90Min": null,
+        "internReplyFastestMin": null,
+        "internReplySlowestMin": null,
+        "internReplySampleCount": 0,
+        "partnerReplyAvgMin": null,
+        "partnerReplyMedianMin": null,
+        "partnerReplySampleCount": 0,
+        "summary": "A single one-way administrative HR nudge with no reply from the intern.",
+        "notableExchanges": [
+          "HR: Update your profile picture in employee portal."
+        ]
+      }
+    ],
+    "groupParticipation": [
+      {
+        "chatId": "channel_intern-group_mpxpkny6",
+        "groupName": "Intern Group Channel",
+        "totalMessages": 11,
+        "tanushreeMessages": 0,
+        "tanushreeActiveDays": 0,
+        "firstMessageAt": "2026-06-03T06:53:27.375Z",
+        "lastMessageAt": "2026-06-05T05:37:06.362Z",
+        "summary": "A small internal broadcast channel for company social-media links; this intern posted no messages here."
+      }
+    ],
+    "aggregate": {
+      "peopleConversedWith": 3,
+      "dmMessagesSent": 30
+    }
+  },
+  "gamesNote": "No game high-scores on record (per-play stats are stored client-side only; intern does not appear in any server leaderboard)."
+}

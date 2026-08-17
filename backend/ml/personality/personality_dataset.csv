@@ -1,0 +1,601 @@
+tasks_completed,avg_completion_hrs,attendance,projects,avg_hours,ontime_pct,label
+48,3.74,74.44,10,10.35,64.99,Problem Solver
+38,9.34,63.66,6,8.7,89.33,Multitasker
+24,8.65,96.69,10,8.29,91.02,Consistency Champion
+52,4.58,65.47,7,10.21,52.72,Problem Solver
+17,7.63,98.01,4,9.36,79.44,Balanced Performer
+30,7.67,77.84,8,5.5,68.34,Multitasker
+48,1.48,67.41,5,9.1,92.81,Speedster
+28,9.07,81.68,1,11.45,52.94,Balanced Performer
+32,5.3,94.92,4,8.67,80.67,Balanced Performer
+20,8.35,89.29,3,5.42,76.47,Balanced Performer
+20,3.54,92.26,9,11.29,57.72,Problem Solver
+33,9.01,86.35,8,6.61,48.2,Multitasker
+45,4.2,87.69,1,7.07,79.1,Balanced Performer
+49,0.6,93.97,6,6.32,84.32,Speedster
+33,9.1,69.99,9,7.64,58.94,Multitasker
+12,1.37,79.58,7,11.05,78.69,Problem Solver
+31,3.53,68.85,4,9.16,63.71,Balanced Performer
+11,9.53,99.51,1,6.64,82.79,Planner
+33,9.53,97.76,2,12.02,51.95,Balanced Performer
+53,5.95,61.58,5,12.04,93.41,Balanced Performer
+39,6.5,88.22,5,11.96,57.24,Balanced Performer
+47,4.76,97.01,8,6.91,62.07,Multitasker
+11,3.29,67.22,6,8.61,43.49,Balanced Performer
+30,3.62,82.72,8,12.88,46.69,Problem Solver
+42,6.89,96.62,2,11.18,70.95,Balanced Performer
+21,7.65,61.36,3,5.22,56.06,Balanced Performer
+31,8.02,87.9,6,5.52,90.13,Multitasker
+53,8.0,71.89,10,8.71,40.88,Multitasker
+34,1.37,96.98,3,12.27,62.75,Balanced Performer
+58,5.2,98.84,6,9.31,60.24,Multitasker
+36,1.05,97.77,6,8.98,41.16,Multitasker
+51,5.72,78.97,2,5.84,47.46,Balanced Performer
+37,4.69,94.48,7,10.25,64.82,Problem Solver
+25,8.93,93.78,2,11.58,69.57,Balanced Performer
+24,3.83,72.76,6,8.04,64.26,Balanced Performer
+56,1.61,93.16,1,11.2,71.86,Speedster
+60,1.86,61.48,3,12.72,75.71,Speedster
+53,7.73,83.85,2,6.63,40.6,Balanced Performer
+12,6.37,69.2,7,9.19,67.85,Problem Solver
+46,1.46,64.82,4,7.3,97.81,Speedster
+60,1.3,63.08,8,11.34,71.14,Speedster
+16,7.16,87.85,6,9.62,80.65,Balanced Performer
+30,1.19,73.59,10,10.08,58.71,Problem Solver
+18,8.31,88.99,4,11.38,86.44,Balanced Performer
+48,7.21,62.61,5,8.17,86.38,Balanced Performer
+27,1.27,72.61,9,12.32,71.28,Problem Solver
+13,1.31,81.58,7,9.26,98.56,Problem Solver
+34,9.87,91.63,10,6.26,47.53,Multitasker
+23,4.06,72.75,9,10.57,41.02,Problem Solver
+59,4.02,85.04,7,11.35,86.21,Problem Solver
+18,8.22,95.44,1,7.53,88.43,Consistency Champion
+35,9.5,84.63,8,11.86,47.21,Problem Solver
+11,9.87,69.32,4,12.25,55.93,Balanced Performer
+29,7.66,60.98,3,7.22,41.05,Balanced Performer
+37,4.07,94.8,7,12.87,57.6,Problem Solver
+56,1.29,60.85,3,6.13,86.39,Speedster
+16,7.88,94.99,8,6.62,71.08,Balanced Performer
+53,5.8,81.16,6,6.47,60.89,Multitasker
+17,4.53,97.56,5,12.15,62.3,Balanced Performer
+56,9.11,91.95,4,10.23,40.08,Balanced Performer
+44,1.56,99.92,8,6.22,57.99,Speedster
+23,5.18,74.03,8,8.52,78.79,Balanced Performer
+26,0.61,90.69,1,9.92,98.45,Consistency Champion
+45,4.95,76.08,9,5.67,90.82,Multitasker
+59,1.03,79.2,5,12.06,41.42,Speedster
+49,1.63,85.1,4,11.43,93.91,Speedster
+13,1.62,94.95,6,9.04,86.99,Consistency Champion
+11,6.67,99.36,6,12.74,86.82,Consistency Champion
+15,7.59,90.73,2,8.34,67.48,Balanced Performer
+51,6.04,76.71,8,12.87,63.88,Problem Solver
+13,9.64,76.85,7,10.34,58.17,Problem Solver
+38,4.06,89.5,1,10.08,43.94,Balanced Performer
+27,3.21,69.55,5,6.33,53.69,Balanced Performer
+35,8.75,64.42,6,12.06,54.8,Multitasker
+53,2.62,74.18,4,8.42,69.04,Balanced Performer
+43,9.65,71.49,2,6.3,84.85,Planner
+19,0.62,71.85,4,5.1,68.43,Balanced Performer
+45,9.71,69.34,1,9.48,43.47,Balanced Performer
+23,0.91,61.68,7,9.22,97.47,Problem Solver
+40,8.97,60.71,2,10.75,96.56,Balanced Performer
+57,5.51,99.51,2,12.12,87.11,Consistency Champion
+24,9.93,77.11,9,5.64,99.48,Planner
+17,1.2,75.37,5,10.85,72.67,Balanced Performer
+23,5.76,87.19,2,6.5,97.77,Planner
+32,9.71,68.73,9,11.87,44.54,Problem Solver
+49,5.47,98.0,9,11.55,61.94,Problem Solver
+30,6.48,91.45,1,9.33,53.52,Balanced Performer
+25,7.11,63.58,3,10.68,51.75,Balanced Performer
+54,4.82,76.7,4,7.51,48.45,Balanced Performer
+27,6.46,95.16,7,8.77,77.34,Balanced Performer
+56,6.05,97.79,10,11.57,86.88,Consistency Champion
+33,9.06,78.7,4,8.67,74.7,Balanced Performer
+35,0.93,84.54,2,7.86,48.82,Balanced Performer
+34,3.17,66.68,7,8.95,88.67,Multitasker
+54,9.53,99.65,6,11.63,78.16,Multitasker
+50,8.96,69.27,3,7.68,63.29,Balanced Performer
+38,4.83,97.71,6,6.39,80.45,Multitasker
+24,6.39,85.99,6,10.7,55.59,Balanced Performer
+54,3.14,84.31,5,11.61,60.71,Balanced Performer
+10,2.29,80.51,4,5.81,95.05,Planner
+34,4.91,69.23,10,6.92,57.43,Multitasker
+16,3.86,67.06,1,6.14,68.2,Balanced Performer
+18,6.04,68.82,10,7.78,93.41,Planner
+33,1.24,67.46,6,8.6,82.46,Multitasker
+10,9.76,91.18,2,10.99,43.73,Balanced Performer
+53,9.87,74.01,3,10.21,48.84,Balanced Performer
+17,7.13,62.31,8,9.97,40.47,Problem Solver
+33,5.59,98.76,10,7.82,77.86,Multitasker
+20,3.44,95.35,6,11.73,66.86,Balanced Performer
+60,8.23,97.11,3,8.77,48.06,Balanced Performer
+26,7.0,99.8,7,12.83,97.48,Consistency Champion
+17,2.04,66.96,4,10.07,71.78,Balanced Performer
+44,9.15,75.85,9,6.01,54.51,Multitasker
+44,8.31,90.33,5,10.41,70.04,Balanced Performer
+42,9.52,87.84,3,7.6,80.78,Planner
+14,7.39,66.16,2,10.49,44.57,Balanced Performer
+51,6.33,92.63,2,5.56,56.48,Balanced Performer
+48,4.47,68.98,3,6.4,88.42,Planner
+50,9.36,68.95,2,11.85,67.58,Balanced Performer
+37,8.73,81.48,4,6.82,72.79,Balanced Performer
+16,0.93,83.72,2,11.7,65.97,Balanced Performer
+18,0.75,83.2,10,7.23,42.63,Balanced Performer
+17,4.08,63.66,9,10.14,49.94,Problem Solver
+21,8.2,95.1,2,10.55,66.73,Balanced Performer
+43,9.88,70.62,9,9.1,52.55,Problem Solver
+42,1.93,65.18,6,7.44,43.0,Speedster
+57,6.14,95.55,1,6.7,90.62,Consistency Champion
+32,4.12,98.23,4,5.27,98.87,Consistency Champion
+33,9.71,94.49,1,7.43,87.59,Consistency Champion
+46,8.5,92.38,6,10.23,91.23,Consistency Champion
+44,8.46,86.21,4,12.51,54.52,Balanced Performer
+53,4.95,82.03,3,11.97,97.64,Balanced Performer
+49,4.44,63.48,3,11.13,51.82,Balanced Performer
+31,3.1,76.34,9,11.31,97.09,Problem Solver
+36,1.04,74.91,6,10.32,99.69,Multitasker
+44,8.71,70.39,9,7.08,82.7,Multitasker
+10,8.22,88.94,5,12.26,98.87,Balanced Performer
+44,10.0,79.84,2,10.37,74.17,Balanced Performer
+46,9.97,63.24,8,9.48,55.57,Problem Solver
+56,5.78,68.81,5,5.89,66.22,Balanced Performer
+23,7.81,87.33,2,8.58,75.61,Balanced Performer
+12,9.48,63.05,4,8.68,44.38,Balanced Performer
+10,8.57,94.05,9,11.92,77.34,Problem Solver
+14,2.85,79.81,4,9.37,98.87,Balanced Performer
+35,4.78,79.22,4,8.04,51.41,Balanced Performer
+23,1.73,83.7,2,12.81,87.56,Balanced Performer
+48,9.56,92.99,6,5.89,94.47,Consistency Champion
+36,6.26,73.91,2,8.38,96.62,Balanced Performer
+18,2.67,87.12,7,5.34,97.61,Planner
+24,6.88,82.63,3,10.92,71.29,Balanced Performer
+24,6.37,70.68,3,12.34,98.64,Balanced Performer
+35,3.9,95.15,5,7.24,85.44,Consistency Champion
+51,1.58,91.9,3,11.87,49.7,Speedster
+22,6.88,86.34,2,7.34,68.61,Balanced Performer
+60,5.44,94.02,10,12.29,83.1,Problem Solver
+41,7.84,94.69,9,11.03,54.84,Problem Solver
+48,5.44,88.33,2,11.44,78.44,Balanced Performer
+58,8.6,93.48,2,5.14,80.0,Balanced Performer
+41,5.74,87.9,8,12.7,49.76,Problem Solver
+13,5.83,87.21,9,10.81,73.91,Problem Solver
+39,8.83,84.74,7,7.44,86.3,Multitasker
+46,4.33,90.11,3,11.64,69.93,Balanced Performer
+32,1.77,66.34,9,7.25,40.73,Multitasker
+48,0.77,95.23,3,11.98,40.54,Speedster
+54,7.67,94.87,5,5.9,61.42,Balanced Performer
+24,6.39,61.17,9,10.63,95.57,Problem Solver
+52,7.19,93.03,3,9.33,53.72,Balanced Performer
+38,2.52,65.15,7,5.77,78.06,Multitasker
+45,1.8,73.4,1,6.94,53.32,Speedster
+22,0.64,89.74,4,5.1,59.3,Balanced Performer
+41,3.83,66.43,4,8.75,90.88,Balanced Performer
+16,6.1,92.72,7,7.41,83.73,Planner
+60,4.23,93.29,8,9.79,45.72,Problem Solver
+31,4.66,80.3,1,7.38,65.72,Balanced Performer
+37,9.09,60.26,5,7.4,41.75,Balanced Performer
+11,3.81,71.48,7,10.95,68.85,Problem Solver
+51,5.38,84.68,4,5.39,79.75,Balanced Performer
+54,7.94,99.25,4,12.22,47.11,Balanced Performer
+15,4.27,85.27,4,11.82,57.33,Balanced Performer
+37,6.41,70.39,6,10.34,63.87,Multitasker
+37,8.69,85.36,7,9.75,95.17,Problem Solver
+53,9.52,81.6,2,12.14,99.6,Balanced Performer
+53,1.9,91.19,5,6.48,42.69,Speedster
+29,9.3,64.28,4,5.63,85.66,Planner
+39,5.18,90.44,3,6.92,62.3,Balanced Performer
+20,2.95,81.65,7,11.36,63.55,Problem Solver
+37,4.86,98.52,6,5.28,85.26,Consistency Champion
+34,9.81,73.67,7,9.66,95.11,Problem Solver
+48,5.18,85.3,5,12.96,97.06,Balanced Performer
+42,3.62,97.28,6,11.85,74.63,Multitasker
+10,6.52,64.1,5,9.17,61.43,Balanced Performer
+36,2.78,97.49,7,5.51,87.25,Consistency Champion
+22,1.22,87.52,2,11.65,55.06,Balanced Performer
+50,1.72,62.71,5,9.79,73.84,Speedster
+12,1.72,72.04,6,5.92,61.51,Balanced Performer
+48,1.94,88.33,6,5.75,79.4,Speedster
+15,1.82,62.69,5,12.28,54.42,Balanced Performer
+17,6.59,83.29,10,10.35,51.5,Problem Solver
+36,2.23,73.84,7,11.63,95.09,Problem Solver
+18,3.78,84.84,10,12.03,46.11,Problem Solver
+46,9.02,61.83,8,9.57,70.36,Problem Solver
+42,5.0,94.86,7,9.14,53.25,Problem Solver
+60,6.84,98.94,5,8.44,42.34,Balanced Performer
+51,2.14,98.76,1,7.54,42.16,Speedster
+53,2.33,89.99,5,8.48,50.51,Speedster
+33,0.89,65.2,10,11.19,92.01,Problem Solver
+24,2.1,90.33,2,9.82,56.95,Balanced Performer
+41,3.15,60.98,5,12.14,97.03,Balanced Performer
+41,2.18,60.88,5,8.55,74.9,Speedster
+33,1.34,72.94,2,9.86,66.2,Balanced Performer
+50,1.65,79.55,5,10.05,74.81,Speedster
+58,4.88,90.82,4,9.73,71.0,Balanced Performer
+58,2.46,87.33,1,10.62,85.53,Speedster
+21,3.96,77.84,3,6.9,56.95,Balanced Performer
+48,5.28,70.95,1,9.1,61.18,Balanced Performer
+11,7.06,99.88,5,5.83,93.65,Consistency Champion
+12,0.87,77.05,4,8.08,96.79,Balanced Performer
+58,8.09,78.06,7,8.9,93.55,Multitasker
+46,6.47,66.54,5,10.22,65.17,Balanced Performer
+58,1.28,91.79,10,12.6,86.82,Speedster
+26,8.8,87.75,4,9.81,68.58,Balanced Performer
+58,9.25,68.83,2,10.95,69.85,Balanced Performer
+11,1.08,63.3,4,9.05,52.28,Balanced Performer
+11,3.13,87.22,2,10.07,75.47,Balanced Performer
+37,8.16,86.18,8,5.57,51.17,Multitasker
+32,7.61,70.93,3,7.04,59.89,Balanced Performer
+46,2.25,98.03,9,7.89,91.3,Speedster
+41,2.49,66.04,4,8.78,52.42,Speedster
+42,4.02,77.29,6,5.37,44.27,Multitasker
+10,5.1,97.74,10,6.12,44.14,Balanced Performer
+28,6.37,76.79,5,7.21,96.45,Planner
+11,4.0,85.54,10,12.77,70.42,Problem Solver
+53,4.89,75.9,1,7.65,64.56,Balanced Performer
+35,7.6,70.97,9,8.86,88.65,Multitasker
+41,0.85,99.36,1,6.57,90.15,Speedster
+15,2.9,76.37,8,9.89,59.93,Problem Solver
+41,7.28,95.76,9,7.25,81.62,Multitasker
+13,9.0,69.2,9,6.66,86.27,Planner
+20,5.36,68.52,1,9.13,79.28,Balanced Performer
+26,5.56,61.25,2,5.04,49.1,Balanced Performer
+47,1.52,86.07,1,5.06,92.55,Speedster
+33,4.75,74.74,10,6.75,72.35,Multitasker
+14,5.56,94.57,2,5.29,56.95,Balanced Performer
+43,2.8,78.93,10,5.86,65.51,Multitasker
+15,3.06,98.73,8,7.71,42.25,Balanced Performer
+31,4.08,67.42,5,11.42,47.67,Balanced Performer
+20,0.69,94.74,7,9.58,85.93,Consistency Champion
+57,3.56,91.06,2,9.1,40.0,Balanced Performer
+25,2.51,90.84,8,7.35,64.99,Balanced Performer
+42,3.61,93.79,6,12.45,71.35,Multitasker
+18,1.64,90.44,8,8.18,43.28,Balanced Performer
+15,8.96,85.05,1,5.7,98.38,Planner
+25,6.14,65.25,1,9.94,53.57,Balanced Performer
+38,6.95,61.3,7,5.91,58.25,Multitasker
+12,8.0,96.83,8,7.76,58.24,Balanced Performer
+29,5.24,84.67,3,9.06,53.82,Balanced Performer
+45,1.33,91.86,5,11.99,40.09,Speedster
+28,5.6,79.26,1,8.95,83.76,Balanced Performer
+35,6.07,64.69,7,10.62,98.01,Problem Solver
+12,7.58,65.01,5,12.94,53.46,Balanced Performer
+28,4.6,87.42,8,6.05,79.78,Balanced Performer
+29,1.71,77.21,8,7.2,84.51,Planner
+41,3.2,68.02,9,8.16,90.91,Multitasker
+16,3.95,79.66,7,8.37,65.36,Balanced Performer
+50,6.64,62.57,1,8.29,58.18,Balanced Performer
+42,5.92,83.28,3,12.26,59.52,Balanced Performer
+49,3.88,70.76,8,10.71,82.76,Problem Solver
+48,9.87,91.9,3,9.86,89.01,Consistency Champion
+27,6.25,72.41,8,7.47,50.9,Balanced Performer
+49,2.75,78.21,1,11.59,62.26,Balanced Performer
+10,1.47,60.46,5,12.64,94.12,Balanced Performer
+20,1.95,62.9,4,11.57,88.4,Balanced Performer
+37,2.84,75.7,5,5.01,99.09,Planner
+34,2.03,79.2,8,10.09,85.25,Problem Solver
+59,2.27,84.0,10,5.41,63.59,Speedster
+32,3.21,71.67,4,7.06,75.44,Balanced Performer
+40,2.15,87.8,4,5.48,79.66,Balanced Performer
+39,9.02,94.4,3,9.83,44.71,Balanced Performer
+51,1.26,91.19,7,10.49,72.67,Speedster
+44,5.48,61.58,3,5.92,82.56,Planner
+16,4.4,79.22,3,8.07,50.04,Balanced Performer
+25,9.83,64.2,10,8.65,86.84,Balanced Performer
+35,1.56,69.68,5,7.95,75.03,Balanced Performer
+57,4.28,99.47,5,5.97,97.13,Consistency Champion
+58,9.71,65.7,6,8.35,42.55,Multitasker
+11,8.72,79.96,8,11.01,55.92,Problem Solver
+10,8.26,84.73,10,5.57,76.09,Balanced Performer
+57,2.95,88.1,6,5.64,57.79,Multitasker
+21,2.12,82.39,1,7.84,82.87,Planner
+14,6.85,60.39,8,12.53,85.54,Problem Solver
+46,9.33,73.06,8,10.35,46.15,Problem Solver
+41,5.79,80.71,9,10.43,70.83,Problem Solver
+18,5.93,63.51,9,7.9,70.53,Balanced Performer
+50,3.16,74.03,2,9.75,62.16,Balanced Performer
+44,7.81,61.33,2,5.08,95.98,Planner
+28,2.28,63.14,3,10.09,89.65,Balanced Performer
+57,3.57,75.88,1,12.31,81.83,Balanced Performer
+25,4.54,65.31,4,9.9,82.86,Balanced Performer
+12,5.32,82.7,4,11.99,67.7,Balanced Performer
+29,2.8,87.58,9,10.79,95.26,Problem Solver
+33,1.59,92.02,9,5.96,81.68,Multitasker
+42,6.3,68.01,9,12.22,83.74,Problem Solver
+33,3.24,66.7,10,5.53,91.7,Multitasker
+20,6.02,64.18,7,9.27,56.44,Problem Solver
+58,1.97,85.46,2,6.14,88.42,Speedster
+17,5.07,88.26,10,5.09,51.71,Balanced Performer
+45,5.56,61.26,5,8.38,60.72,Balanced Performer
+47,0.99,97.45,4,7.36,60.14,Speedster
+49,3.7,62.08,8,8.89,98.71,Multitasker
+29,1.78,81.65,2,9.62,91.39,Balanced Performer
+44,1.1,88.36,6,5.35,82.07,Speedster
+57,9.9,94.84,5,5.98,83.62,Planner
+34,3.56,88.56,2,9.47,73.72,Balanced Performer
+44,8.19,92.07,10,7.75,96.83,Consistency Champion
+34,2.92,73.58,1,10.83,69.78,Balanced Performer
+38,6.97,92.59,8,10.22,62.83,Problem Solver
+27,7.72,63.2,2,11.76,49.78,Balanced Performer
+55,6.16,95.79,7,10.54,87.17,Consistency Champion
+27,4.98,81.9,9,8.44,84.07,Balanced Performer
+11,4.41,92.69,9,10.38,63.06,Problem Solver
+44,3.81,78.09,8,7.2,41.51,Multitasker
+25,9.33,85.74,10,7.45,90.34,Planner
+50,8.39,81.06,9,11.31,40.69,Problem Solver
+45,9.67,89.26,2,8.57,82.22,Balanced Performer
+42,1.68,63.27,6,11.39,98.22,Speedster
+13,7.44,62.41,4,11.58,66.26,Balanced Performer
+42,9.41,69.88,4,11.86,54.1,Balanced Performer
+23,2.22,66.38,5,12.33,82.29,Balanced Performer
+30,1.13,94.87,3,8.45,89.03,Consistency Champion
+57,7.54,68.77,1,7.55,72.79,Balanced Performer
+29,5.96,99.03,8,9.66,98.02,Consistency Champion
+17,8.5,73.48,5,7.97,43.1,Balanced Performer
+16,1.83,67.28,3,9.81,70.29,Balanced Performer
+12,8.06,91.59,10,10.64,83.11,Problem Solver
+26,2.42,86.35,7,10.51,91.76,Problem Solver
+42,2.05,79.93,7,8.0,50.76,Speedster
+57,2.06,82.21,1,6.33,88.0,Speedster
+21,8.24,88.77,9,8.44,73.16,Balanced Performer
+60,6.82,69.14,2,6.14,63.79,Balanced Performer
+31,5.47,99.85,5,12.12,47.9,Balanced Performer
+31,3.91,98.99,5,7.77,91.92,Consistency Champion
+55,8.83,86.01,8,6.24,49.44,Multitasker
+39,4.23,67.98,8,5.2,58.59,Multitasker
+47,8.26,87.21,7,10.17,57.4,Problem Solver
+47,4.67,62.89,7,10.1,92.28,Problem Solver
+54,4.08,61.23,6,7.72,80.36,Multitasker
+60,4.9,70.31,6,5.57,87.8,Multitasker
+17,3.36,78.5,9,8.28,55.03,Balanced Performer
+36,7.6,94.73,6,7.49,77.49,Multitasker
+36,5.28,89.09,2,10.42,74.3,Balanced Performer
+43,2.71,89.71,2,9.85,89.97,Balanced Performer
+30,9.05,77.02,5,7.92,94.37,Planner
+39,4.15,73.84,4,6.74,40.73,Balanced Performer
+42,5.66,74.84,2,12.9,80.44,Balanced Performer
+37,9.11,99.51,3,8.63,43.11,Balanced Performer
+56,6.43,61.6,7,10.51,72.93,Problem Solver
+42,1.61,94.68,8,6.12,57.26,Speedster
+14,9.43,83.15,6,8.88,58.41,Balanced Performer
+57,6.46,77.54,5,5.22,61.18,Balanced Performer
+28,3.68,89.01,1,9.04,77.28,Balanced Performer
+13,1.82,79.47,8,12.71,60.04,Problem Solver
+44,8.04,94.94,3,8.07,83.96,Balanced Performer
+58,6.39,96.03,6,5.31,64.27,Multitasker
+26,5.57,76.87,3,5.25,44.1,Balanced Performer
+53,8.99,71.07,7,8.1,87.03,Multitasker
+37,7.99,83.69,7,6.28,57.15,Multitasker
+39,1.94,96.49,9,5.19,65.97,Multitasker
+38,3.46,68.43,5,11.05,81.13,Balanced Performer
+55,2.86,84.92,8,8.67,59.95,Multitasker
+15,7.57,85.26,10,7.31,43.4,Balanced Performer
+44,0.82,89.32,10,12.2,62.44,Speedster
+50,5.91,65.26,8,5.93,96.67,Multitasker
+46,7.74,88.63,1,12.65,78.5,Balanced Performer
+33,8.83,96.36,5,7.51,80.29,Planner
+38,3.75,67.19,3,12.11,77.94,Balanced Performer
+58,8.3,69.5,1,9.82,51.94,Balanced Performer
+55,1.55,98.86,4,11.61,65.1,Speedster
+40,8.54,67.24,8,12.87,85.06,Problem Solver
+44,1.71,94.18,3,7.31,46.08,Speedster
+42,4.27,79.69,10,12.69,56.67,Problem Solver
+30,8.07,69.89,2,8.12,56.58,Balanced Performer
+41,1.92,94.83,9,8.08,65.92,Speedster
+32,2.68,77.81,10,7.72,98.82,Multitasker
+42,7.36,80.59,5,9.33,44.05,Balanced Performer
+12,7.34,74.37,7,6.23,71.12,Balanced Performer
+27,6.59,83.72,2,9.43,50.76,Balanced Performer
+34,7.09,66.54,9,9.33,98.24,Problem Solver
+51,5.66,75.64,9,11.1,46.8,Problem Solver
+40,2.89,98.78,4,11.67,64.22,Balanced Performer
+12,3.78,70.33,4,8.52,84.27,Balanced Performer
+49,2.23,86.27,6,7.42,82.27,Speedster
+55,9.13,73.01,10,7.07,65.36,Multitasker
+33,6.04,90.94,10,6.56,60.79,Multitasker
+59,4.31,65.23,10,5.46,63.86,Multitasker
+41,4.89,98.79,6,7.74,55.86,Multitasker
+56,9.5,78.15,1,7.16,52.32,Balanced Performer
+31,1.96,69.44,9,12.73,68.98,Problem Solver
+32,6.07,62.94,2,9.46,56.11,Balanced Performer
+11,5.31,66.79,5,7.78,57.25,Balanced Performer
+36,6.31,80.79,9,9.64,79.41,Problem Solver
+51,0.67,73.48,4,6.11,98.11,Speedster
+11,8.79,93.16,3,8.55,76.22,Balanced Performer
+35,9.36,77.24,7,10.01,44.62,Problem Solver
+26,5.87,69.95,6,8.91,44.54,Balanced Performer
+49,7.12,84.69,8,8.21,97.09,Multitasker
+42,9.26,88.27,3,12.95,57.84,Balanced Performer
+18,7.22,66.68,5,12.04,45.52,Balanced Performer
+52,1.95,66.7,10,9.99,75.94,Speedster
+57,5.97,61.47,4,9.56,77.42,Balanced Performer
+48,6.26,89.46,4,9.97,78.91,Balanced Performer
+38,4.53,86.55,4,6.61,56.04,Balanced Performer
+51,7.5,78.99,10,8.16,40.91,Multitasker
+35,9.38,93.77,8,5.32,97.9,Consistency Champion
+44,9.29,92.23,6,8.8,55.05,Multitasker
+59,4.78,83.41,3,9.34,80.56,Balanced Performer
+34,1.58,94.73,10,6.82,82.4,Multitasker
+33,9.86,68.23,5,12.71,76.6,Balanced Performer
+22,8.47,64.48,6,12.28,58.77,Balanced Performer
+16,1.68,70.79,5,10.78,56.27,Balanced Performer
+45,9.25,62.28,6,9.27,75.86,Multitasker
+54,8.76,81.25,8,11.96,91.97,Problem Solver
+29,5.43,97.46,7,6.05,96.8,Consistency Champion
+10,6.12,61.57,5,11.32,46.35,Balanced Performer
+17,4.29,64.88,10,6.0,49.29,Balanced Performer
+55,1.02,78.09,6,11.35,96.68,Speedster
+25,3.68,97.36,4,7.21,84.19,Planner
+23,8.13,72.65,9,12.02,92.98,Problem Solver
+21,0.54,80.29,4,12.55,52.16,Balanced Performer
+60,3.67,61.66,1,6.19,75.26,Balanced Performer
+32,4.28,65.93,7,8.7,82.07,Multitasker
+24,5.61,99.47,7,12.85,80.81,Problem Solver
+37,9.24,98.6,4,8.87,64.49,Balanced Performer
+43,3.79,60.2,3,11.91,40.92,Balanced Performer
+11,3.8,98.07,8,9.71,74.98,Problem Solver
+41,7.51,85.56,5,8.0,55.19,Balanced Performer
+32,4.8,94.72,10,7.29,67.02,Multitasker
+31,2.63,78.19,7,6.63,97.45,Multitasker
+60,4.8,80.62,4,11.09,63.94,Balanced Performer
+34,1.84,79.55,4,8.09,90.39,Balanced Performer
+31,2.18,86.67,8,9.09,51.31,Problem Solver
+31,5.23,65.59,8,8.94,80.35,Multitasker
+58,4.48,61.2,2,9.62,98.62,Balanced Performer
+51,9.19,72.32,2,11.92,46.11,Balanced Performer
+15,3.94,88.19,3,12.85,40.5,Balanced Performer
+24,6.02,68.07,3,8.26,66.01,Balanced Performer
+52,6.51,86.94,1,11.62,45.56,Balanced Performer
+46,0.62,98.8,3,11.12,84.9,Speedster
+42,6.8,63.76,6,9.59,94.87,Multitasker
+17,2.19,86.9,8,12.65,66.04,Problem Solver
+53,9.63,77.75,10,6.6,55.52,Multitasker
+53,1.91,94.73,6,5.87,66.06,Speedster
+14,4.44,67.09,5,11.83,83.41,Balanced Performer
+48,1.31,87.71,4,8.51,40.54,Speedster
+13,9.97,93.52,3,11.78,75.37,Balanced Performer
+15,5.27,97.78,4,12.14,76.8,Balanced Performer
+54,6.16,87.33,7,5.5,78.26,Multitasker
+41,1.14,79.89,1,12.07,54.52,Speedster
+39,7.62,84.71,7,8.59,82.84,Multitasker
+56,2.49,94.76,1,9.08,45.48,Speedster
+44,9.03,82.82,2,10.01,51.96,Balanced Performer
+49,2.45,61.22,4,12.41,92.65,Speedster
+25,2.31,97.24,1,5.15,84.32,Planner
+22,0.85,87.58,9,8.81,40.82,Balanced Performer
+59,4.98,87.06,6,10.5,54.9,Multitasker
+51,5.87,68.63,1,10.78,52.86,Balanced Performer
+39,1.12,86.36,1,10.54,56.25,Balanced Performer
+28,7.87,75.75,6,6.08,54.85,Balanced Performer
+26,4.81,86.05,4,7.4,43.75,Balanced Performer
+28,5.48,64.26,4,7.87,67.54,Balanced Performer
+37,4.69,86.31,6,11.44,83.96,Multitasker
+35,4.31,99.98,7,7.23,76.4,Multitasker
+46,5.82,61.93,9,6.69,80.37,Multitasker
+35,1.97,99.09,10,12.66,44.87,Problem Solver
+32,2.23,76.28,5,5.07,97.09,Planner
+18,8.69,94.83,9,12.98,90.31,Consistency Champion
+21,9.49,91.3,4,10.41,88.31,Consistency Champion
+10,4.05,82.68,10,11.63,89.38,Problem Solver
+10,3.07,89.54,2,7.36,95.96,Planner
+56,6.62,95.14,3,5.11,72.66,Balanced Performer
+43,4.38,76.17,1,10.9,52.02,Balanced Performer
+41,0.74,73.08,6,11.67,77.01,Speedster
+57,1.98,86.7,6,10.92,84.57,Speedster
+34,7.3,92.31,1,6.14,84.28,Planner
+49,6.76,90.49,3,11.03,71.29,Balanced Performer
+54,0.76,91.91,5,11.15,44.11,Speedster
+10,2.61,77.42,3,10.27,62.27,Balanced Performer
+25,2.7,92.71,10,11.13,95.25,Consistency Champion
+48,6.88,64.81,3,11.77,75.07,Balanced Performer
+14,0.69,81.78,10,9.91,72.3,Problem Solver
+31,1.49,60.23,3,5.71,56.13,Balanced Performer
+38,8.1,72.98,5,8.9,62.11,Balanced Performer
+12,2.2,74.66,5,5.62,93.72,Planner
+21,6.7,75.85,4,8.26,79.99,Balanced Performer
+35,2.76,87.82,1,8.26,87.24,Balanced Performer
+25,1.44,75.54,5,5.53,67.26,Balanced Performer
+60,2.81,77.95,10,7.79,77.81,Multitasker
+46,7.36,69.5,5,5.89,54.9,Balanced Performer
+31,8.63,74.93,4,11.47,82.33,Balanced Performer
+38,8.39,69.09,6,12.58,65.66,Multitasker
+23,4.27,62.93,10,5.58,66.55,Balanced Performer
+37,6.85,84.14,4,12.64,78.96,Balanced Performer
+14,2.45,86.73,7,9.18,96.18,Problem Solver
+56,3.28,84.78,7,7.4,43.84,Multitasker
+58,9.02,78.54,2,5.61,89.48,Planner
+39,0.62,75.19,3,9.0,57.54,Balanced Performer
+55,1.31,94.53,1,11.36,66.64,Speedster
+14,2.47,80.76,8,10.66,41.31,Problem Solver
+21,0.75,79.17,9,5.4,58.06,Balanced Performer
+25,2.22,61.03,4,5.58,70.16,Balanced Performer
+35,6.04,73.65,6,8.22,43.37,Multitasker
+35,4.5,75.21,9,7.36,69.47,Multitasker
+57,8.98,75.95,6,6.86,95.63,Multitasker
+30,8.27,83.21,9,7.25,46.32,Multitasker
+48,3.75,81.34,4,11.43,85.87,Balanced Performer
+45,2.96,84.32,8,12.43,64.58,Problem Solver
+42,4.11,90.6,9,8.24,79.31,Multitasker
+39,6.11,92.52,4,12.25,55.61,Balanced Performer
+46,3.05,88.72,5,7.57,49.57,Balanced Performer
+32,6.43,98.22,8,8.81,49.63,Multitasker
+19,4.39,60.73,10,6.81,44.23,Balanced Performer
+14,5.74,67.83,6,10.12,51.14,Balanced Performer
+45,4.64,60.3,7,12.83,79.85,Problem Solver
+43,3.3,85.9,3,9.83,92.9,Balanced Performer
+40,9.51,95.92,7,7.86,88.85,Consistency Champion
+19,7.75,69.74,8,10.18,81.11,Problem Solver
+28,1.83,97.08,10,5.98,46.63,Balanced Performer
+41,8.75,62.41,6,12.11,57.35,Multitasker
+10,5.13,97.38,10,9.02,58.59,Problem Solver
+14,9.0,74.06,9,8.59,55.0,Balanced Performer
+54,8.1,64.06,6,9.69,70.9,Multitasker
+13,4.54,79.43,9,10.0,72.13,Problem Solver
+25,0.71,70.27,4,5.57,61.41,Balanced Performer
+33,3.05,71.39,8,10.46,61.23,Problem Solver
+25,5.65,72.29,4,6.94,89.71,Planner
+11,6.52,92.12,2,10.71,87.36,Consistency Champion
+58,2.95,81.57,10,11.58,58.47,Problem Solver
+37,1.82,72.45,9,11.43,94.83,Problem Solver
+41,8.43,84.41,5,9.42,97.17,Balanced Performer
+36,9.85,88.65,4,9.16,59.6,Balanced Performer
+29,5.49,70.9,2,6.14,61.27,Balanced Performer
+33,2.13,76.54,1,11.2,70.34,Balanced Performer
+21,3.09,64.88,7,7.17,96.47,Planner
+59,0.67,67.25,6,8.97,92.58,Speedster
+44,9.19,87.24,2,7.27,46.15,Balanced Performer
+42,1.62,67.26,8,6.07,63.56,Speedster
+42,5.98,81.01,4,10.04,73.2,Balanced Performer
+60,3.1,88.36,8,5.43,70.19,Multitasker
+52,5.76,64.28,7,10.99,51.63,Problem Solver
+46,6.69,82.69,5,7.54,91.53,Planner
+21,8.38,70.26,10,5.0,80.62,Planner
+12,2.46,98.52,10,9.09,90.27,Consistency Champion
+10,0.6,79.34,8,5.37,91.53,Planner
+42,1.8,92.24,9,7.21,84.9,Speedster
+49,9.05,82.01,5,10.66,66.35,Balanced Performer
+19,8.8,61.74,10,5.5,76.63,Balanced Performer
+52,6.18,85.33,5,11.71,49.62,Balanced Performer
+53,6.2,98.06,2,5.03,80.42,Planner
+38,6.82,84.06,5,6.97,50.76,Balanced Performer
+22,2.17,92.77,3,10.93,81.64,Balanced Performer
+21,9.19,95.37,7,7.53,53.78,Balanced Performer
+40,4.48,69.12,10,5.82,47.05,Multitasker
+55,4.14,68.48,5,7.88,49.92,Balanced Performer
+11,5.43,84.44,8,7.16,40.12,Balanced Performer
+60,0.95,76.44,1,11.74,83.12,Speedster
+59,2.08,93.59,3,7.51,83.94,Speedster
+44,7.51,96.0,3,11.31,70.9,Balanced Performer
+32,1.29,74.14,9,12.13,49.68,Problem Solver
+26,6.23,69.47,5,8.47,45.01,Balanced Performer
+35,2.83,91.22,9,12.28,41.15,Problem Solver
+17,4.2,70.99,9,8.02,49.94,Balanced Performer
+38,3.24,92.9,1,12.71,93.45,Consistency Champion
+35,3.88,76.95,2,5.71,54.49,Balanced Performer
+19,7.33,86.7,5,10.5,61.26,Balanced Performer
+35,3.32,63.82,4,8.95,46.32,Balanced Performer
+43,5.88,84.95,10,8.1,53.34,Multitasker
+60,5.02,78.07,9,10.06,71.15,Problem Solver
+50,6.8,83.46,7,10.63,76.47,Problem Solver
+16,9.4,66.72,6,5.03,54.72,Balanced Performer
+13,7.46,89.47,7,6.34,43.46,Balanced Performer
+59,2.54,94.51,1,10.7,63.46,Balanced Performer
+54,0.8,68.67,1,10.33,54.05,Speedster
+20,2.99,63.83,8,12.73,53.17,Problem Solver
+38,6.15,60.95,2,11.09,97.59,Balanced Performer
+45,0.99,85.68,10,12.61,76.98,Speedster
+34,5.22,84.28,9,10.62,73.41,Problem Solver
+30,6.17,81.87,7,7.38,64.95,Multitasker
+45,3.68,69.28,6,5.84,65.74,Multitasker
+19,7.82,75.64,1,11.25,72.45,Balanced Performer
+46,1.51,83.78,1,10.15,81.79,Speedster
+18,1.21,79.87,2,5.39,82.13,Planner
+33,7.42,99.51,6,7.88,50.3,Multitasker
+44,5.21,65.46,6,12.65,70.01,Multitasker
+58,7.04,87.81,2,9.0,64.72,Balanced Performer
+44,4.63,76.17,1,8.46,92.23,Balanced Performer
+57,2.84,77.13,10,8.66,77.89,Multitasker
+45,8.28,88.7,5,6.67,71.95,Balanced Performer
+27,8.09,87.7,5,7.95,46.92,Balanced Performer
+58,7.1,99.65,2,7.96,76.34,Balanced Performer
+48,3.09,65.14,6,5.42,47.03,Multitasker
+41,6.11,64.16,9,11.14,60.23,Problem Solver
