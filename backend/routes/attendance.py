@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from database import employee_collection
+from backend.database import employee_collection
 from motor.motor_asyncio import AsyncIOMotorClient
 from config import MONGO_URI, DB_NAME
 
