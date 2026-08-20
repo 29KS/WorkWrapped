@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
 from motor.motor_asyncio import AsyncIOMotorClient
-from config import MONGO_URI, DB_NAME
-from models.burnout import BurnoutOut
+from backend.config import MONGO_URI, DB_NAME
+from backend.models.burnout import BurnoutOut
 import pickle
 import numpy as np
 

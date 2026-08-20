@@ -1,9 +1,9 @@
 from fastapi import APIRouter, HTTPException
 from motor.motor_asyncio import AsyncIOMotorClient
 from passlib.context import CryptContext
-from config import MONGO_URI, DB_NAME
-from models.auth import LoginRequest, TokenOut
-from middleware.jwt_handler import create_access_token
+from backend.config import MONGO_URI, DB_NAME
+from backend.models.auth import LoginRequest, TokenOut
+from backend.middleware.jwt_handler import create_access_token
 
 router = APIRouter(prefix="/auth", tags=["Auth"])
 

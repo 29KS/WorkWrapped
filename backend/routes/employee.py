@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from database import employee_collection
+from backend.database import employee_collection
 
 router = APIRouter(prefix="/employees", tags=["Employee"])
 

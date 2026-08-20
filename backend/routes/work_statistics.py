@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
-from database import employee_collection
+from backend.database import employee_collection
 from motor.motor_asyncio import AsyncIOMotorClient
-from config import MONGO_URI, DB_NAME
+from backend.config import MONGO_URI, DB_NAME
 
 router = APIRouter(prefix="/employees", tags=["Work Statistics"])
 

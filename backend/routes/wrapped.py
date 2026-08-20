@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
 from motor.motor_asyncio import AsyncIOMotorClient
-from config import MONGO_URI, DB_NAME
-from services.gemini_service import generate_employee_summary
+from backend.config import MONGO_URI, DB_NAME
+from backend.services.gemini_service import generate_employee_summary
 import pickle
 import numpy as np
 
