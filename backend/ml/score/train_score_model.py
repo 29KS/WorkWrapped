@@ -8,31 +8,33 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error, r2_score
 
 
-# Get project root directory
-BASE_DIR = os.path.dirname(
-    os.path.dirname(
-        os.path.dirname(os.path.abspath(__file__))
-    )
-)
+# --------------------------------------------------
+# Paths
+# --------------------------------------------------
 
-# File paths
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 DATASET_PATH = os.path.join(
     BASE_DIR,
-    "ml",
-    "score",
     "score_dataset.csv"
 )
 
 MODEL_PATH = os.path.join(
     BASE_DIR,
-    "ml",
-    "score",
     "score_model.pkl"
 )
 
 
+# --------------------------------------------------
 # Load dataset
+# --------------------------------------------------
+
 df = pd.read_csv(DATASET_PATH)
+
+
+# --------------------------------------------------
+# Features
+# --------------------------------------------------
 
 features = [
     "attendance",
@@ -46,7 +48,10 @@ X = df[features]
 y = df["score"]
 
 
-# Train-test split
+# --------------------------------------------------
+# Train/Test Split
+# --------------------------------------------------
+
 X_train, X_test, y_train, y_test = train_test_split(
     X,
     y,
@@ -55,9 +60,9 @@ X_train, X_test, y_train, y_test = train_test_split(
 )
 
 
-# -----------------------------
+# --------------------------------------------------
 # Linear Regression
-# -----------------------------
+# --------------------------------------------------
 
 lr = LinearRegression()
 
@@ -76,9 +81,9 @@ lr_r2 = r2_score(
 )
 
 
-# -----------------------------
+# --------------------------------------------------
 # Random Forest
-# -----------------------------
+# --------------------------------------------------
 
 rf = RandomForestRegressor(
     n_estimators=100,
@@ -100,19 +105,29 @@ rf_r2 = r2_score(
 )
 
 
-# Print results
+# --------------------------------------------------
+# Evaluation
+# --------------------------------------------------
+
+print("\nScore Model Evaluation:")
+
 print(
-    f"Linear Regression - MAE: {lr_mae:.2f}, "
+    f"Linear Regression - "
+    f"MAE: {lr_mae:.2f}, "
     f"R2: {lr_r2:.3f}"
 )
 
 print(
-    f"Random Forest     - MAE: {rf_mae:.2f}, "
+    f"Random Forest     - "
+    f"MAE: {rf_mae:.2f}, "
     f"R2: {rf_r2:.3f}"
 )
 
 
+# --------------------------------------------------
 # Select best model
+# --------------------------------------------------
+
 if rf_r2 >= lr_r2:
     best_model = rf
     best_name = "Random Forest"
@@ -121,10 +136,13 @@ else:
     best_name = "Linear Regression"
 
 
-print(f"\nSaving: {best_name}")
+print(f"\nSelected model: {best_name}")
 
 
+# --------------------------------------------------
 # Save model
+# --------------------------------------------------
+
 with open(MODEL_PATH, "wb") as f:
     pickle.dump(
         {
@@ -136,4 +154,5 @@ with open(MODEL_PATH, "wb") as f:
     )
 
 
-print(f"Model saved to: {MODEL_PATH}")
+print("\nModel saved successfully to:")
+print(MODEL_PATH)

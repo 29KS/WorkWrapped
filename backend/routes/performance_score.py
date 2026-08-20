@@ -1,11 +1,12 @@
 from fastapi import APIRouter, HTTPException
 from motor.motor_asyncio import AsyncIOMotorClient
+
 from backend.config import MONGO_URI, DB_NAME
 from backend.models.performance_score import PerformanceScoreOut
 
-from pathlib import Path
 import pickle
 import numpy as np
+from pathlib import Path
 
 
 router = APIRouter(tags=["Performance Score"])
@@ -20,7 +21,7 @@ db = client[DB_NAME]
 
 
 # --------------------------------------------------
-# Load ML Model
+# Model path
 # --------------------------------------------------
 
 BASE_DIR = Path(__file__).resolve().parents[2]
@@ -33,9 +34,13 @@ MODEL_PATH = (
 )
 
 
+# --------------------------------------------------
+# Load model
+# --------------------------------------------------
+
 if not MODEL_PATH.exists():
     raise FileNotFoundError(
-        f"Score model not found at: {MODEL_PATH}"
+        f"Performance score model not found at: {MODEL_PATH}"
     )
 
 
@@ -47,7 +52,7 @@ model_name = saved["model_name"]
 
 
 # --------------------------------------------------
-# Grade Calculation
+# Grade
 # --------------------------------------------------
 
 def get_grade(score: float):
@@ -69,7 +74,7 @@ def get_grade(score: float):
 
 
 # --------------------------------------------------
-# Feature Contribution
+# Feature contribution
 # --------------------------------------------------
 
 def get_contribution(features: dict) -> dict:
@@ -78,6 +83,7 @@ def get_contribution(features: dict) -> dict:
 
 
     # Attendance
+
     if features["attendance"] >= 95:
 
         tips["Attendance"] = "🟢 Excellent"
@@ -91,7 +97,8 @@ def get_contribution(features: dict) -> dict:
         tips["Attendance"] = "🔴 Needs Improvement"
 
 
-    # Task Completion
+    # Task completion
+
     if features["completion"] >= 90:
 
         tips["Task Completion"] = "🟢 Excellent"
@@ -106,6 +113,7 @@ def get_contribution(features: dict) -> dict:
 
 
     # Punctuality
+
     if features["late_arrivals"] <= 2:
 
         tips["Punctuality"] = "🟢 Excellent"
@@ -119,7 +127,8 @@ def get_contribution(features: dict) -> dict:
         tips["Punctuality"] = "🔴 High Late Arrivals"
 
 
-    # Working Hours
+    # Working hours
+
     if features["hours"] >= 8:
 
         tips["Working Hours"] = "🟢 On Track"
@@ -134,6 +143,7 @@ def get_contribution(features: dict) -> dict:
 
 
     # Projects
+
     if features["projects"] >= 5:
 
         tips["Projects"] = "🟢 High Involvement"
@@ -151,7 +161,7 @@ def get_contribution(features: dict) -> dict:
 
 
 # --------------------------------------------------
-# Performance Score Prediction
+# Endpoint
 # --------------------------------------------------
 
 @router.get(
@@ -159,10 +169,6 @@ def get_contribution(features: dict) -> dict:
     response_model=PerformanceScoreOut
 )
 async def predict_performance_score(uid: str):
-
-    # ----------------------------------------------
-    # Employee
-    # ----------------------------------------------
 
     employee = await db["employees"].find_one(
         {"uid": uid},
@@ -176,10 +182,6 @@ async def predict_performance_score(uid: str):
         )
 
 
-    # ----------------------------------------------
-    # Attendance
-    # ----------------------------------------------
-
     attendance = await db["raw_attendance"].find_one(
         {"uid": uid},
         {"_id": 0}
@@ -191,10 +193,6 @@ async def predict_performance_score(uid: str):
             detail="Attendance data not found"
         )
 
-
-    # ----------------------------------------------
-    # Task Performance
-    # ----------------------------------------------
 
     tp = await db["task_performance"].find_one(
         {"uid": uid},
@@ -208,9 +206,9 @@ async def predict_performance_score(uid: str):
         )
 
 
-    # ----------------------------------------------
-    # Attendance Percentage
-    # ----------------------------------------------
+    # --------------------------------------------------
+    # Attendance percentage
+    # --------------------------------------------------
 
     present = attendance.get(
         "presentDays",
@@ -232,9 +230,9 @@ async def predict_performance_score(uid: str):
     )
 
 
-    # ----------------------------------------------
-    # Task Completion
-    # ----------------------------------------------
+    # --------------------------------------------------
+    # Completion percentage
+    # --------------------------------------------------
 
     done = tp.get(
         "doneTasks",
@@ -256,9 +254,9 @@ async def predict_performance_score(uid: str):
     )
 
 
-    # ----------------------------------------------
+    # --------------------------------------------------
     # Projects
-    # ----------------------------------------------
+    # --------------------------------------------------
 
     tasks = tp.get(
         "tasks",
@@ -267,16 +265,16 @@ async def predict_performance_score(uid: str):
 
     projects = len(
         set(
-            task.get("project")
-            for task in tasks
-            if task.get("project")
+            t.get("project")
+            for t in tasks
+            if t.get("project")
         )
     )
 
 
-    # ----------------------------------------------
-    # Other Features
-    # ----------------------------------------------
+    # --------------------------------------------------
+    # Other features
+    # --------------------------------------------------
 
     avg_hours = attendance.get(
         "avgHours",
@@ -289,47 +287,36 @@ async def predict_performance_score(uid: str):
     )
 
 
-    # ----------------------------------------------
-    # Feature Dictionary
-    # ----------------------------------------------
-
     features = {
 
-        "attendance":
-            attendance_pct,
+        "attendance": attendance_pct,
 
-        "completion":
-            completion_rate,
+        "completion": completion_rate,
 
-        "projects":
-            projects,
+        "projects": projects,
 
-        "hours":
-            avg_hours,
+        "hours": avg_hours,
 
-        "late_arrivals":
-            late_arrivals
+        "late_arrivals": late_arrivals
     }
 
 
-    # ----------------------------------------------
-    # Prepare ML Input
-    # ----------------------------------------------
+    # --------------------------------------------------
+    # Model input
+    # --------------------------------------------------
 
-    X = np.array([
-        [
-            features["attendance"],
-            features["completion"],
-            features["projects"],
-            features["hours"],
-            features["late_arrivals"]
-        ]
-    ])
+    X = np.array([[
+        features["attendance"],
+        features["completion"],
+        features["projects"],
+        features["hours"],
+        features["late_arrivals"]
+    ]])
 
 
-    # ----------------------------------------------
+    # --------------------------------------------------
     # Prediction
-    # ----------------------------------------------
+    # --------------------------------------------------
 
     predicted = float(
         np.clip(
@@ -345,38 +332,32 @@ async def predict_performance_score(uid: str):
     )
 
 
-    # ----------------------------------------------
+    # --------------------------------------------------
     # Grade
-    # ----------------------------------------------
+    # --------------------------------------------------
 
     grade, grade_color = get_grade(
         predicted
     )
 
 
-    # ----------------------------------------------
+    # --------------------------------------------------
     # Response
-    # ----------------------------------------------
+    # --------------------------------------------------
 
     return {
 
-        "uid":
-            uid,
+        "uid": uid,
 
-        "predicted_score":
-            predicted,
+        "predicted_score": predicted,
 
-        "grade":
-            grade,
+        "grade": grade,
 
-        "grade_color":
-            grade_color,
+        "grade_color": grade_color,
 
-        "model_used":
-            model_name,
+        "model_used": model_name,
 
-        "input_features":
-            features,
+        "input_features": features,
 
         "feature_contribution":
             get_contribution(features)

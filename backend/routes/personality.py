@@ -1,11 +1,12 @@
 from fastapi import APIRouter, HTTPException
 from motor.motor_asyncio import AsyncIOMotorClient
+
 from backend.config import MONGO_URI, DB_NAME
 from backend.models.personality import PersonalityOut
 
-from pathlib import Path
 import pickle
 import numpy as np
+from pathlib import Path
 
 
 router = APIRouter(tags=["Personality"])
@@ -20,7 +21,7 @@ db = client[DB_NAME]
 
 
 # --------------------------------------------------
-# Load ML Model
+# Model path
 # --------------------------------------------------
 
 BASE_DIR = Path(__file__).resolve().parents[2]
@@ -32,6 +33,10 @@ MODEL_PATH = (
     / "personality_model.pkl"
 )
 
+
+# --------------------------------------------------
+# Load model
+# --------------------------------------------------
 
 if not MODEL_PATH.exists():
     raise FileNotFoundError(
@@ -47,7 +52,7 @@ personality_encoder = saved["encoder"]
 
 
 # --------------------------------------------------
-# Personality Metadata
+# Personality metadata
 # --------------------------------------------------
 
 PERSONALITY_META = {
@@ -69,8 +74,8 @@ PERSONALITY_META = {
     "Problem Solver": {
         "emoji": "💡",
         "description":
-            "You thrive under pressure and take on "
-            "the hardest challenges."
+            "You thrive under pressure and take "
+            "on the hardest challenges."
     },
 
     "Multitasker": {
@@ -97,7 +102,7 @@ PERSONALITY_META = {
 
 
 # --------------------------------------------------
-# Personality Prediction
+# Endpoint
 # --------------------------------------------------
 
 @router.get(
@@ -105,10 +110,6 @@ PERSONALITY_META = {
     response_model=PersonalityOut
 )
 async def get_personality(uid: str):
-
-    # ----------------------------------------------
-    # Employee
-    # ----------------------------------------------
 
     employee = await db["employees"].find_one(
         {"uid": uid},
@@ -122,10 +123,6 @@ async def get_personality(uid: str):
         )
 
 
-    # ----------------------------------------------
-    # Task Performance
-    # ----------------------------------------------
-
     tp = await db["task_performance"].find_one(
         {"uid": uid},
         {"_id": 0}
@@ -137,10 +134,6 @@ async def get_personality(uid: str):
             detail="Task performance not found"
         )
 
-
-    # ----------------------------------------------
-    # Attendance
-    # ----------------------------------------------
 
     attendance = await db["raw_attendance"].find_one(
         {"uid": uid},
@@ -154,9 +147,9 @@ async def get_personality(uid: str):
         )
 
 
-    # ----------------------------------------------
-    # Extract Tasks
-    # ----------------------------------------------
+    # --------------------------------------------------
+    # Task features
+    # --------------------------------------------------
 
     tasks = tp.get(
         "tasks",
@@ -164,18 +157,11 @@ async def get_personality(uid: str):
     )
 
     done_tasks = [
-        task
-        for task in tasks
-        if (
-            task.get("status") == "Done"
-            and task.get("actualHours") is not None
-        )
+        t for t in tasks
+        if t.get("status") == "Done"
+        and t.get("actualHours") is not None
     ]
 
-
-    # ----------------------------------------------
-    # Features
-    # ----------------------------------------------
 
     tasks_completed = tp.get(
         "doneTasks",
@@ -187,17 +173,19 @@ async def get_personality(uid: str):
 
         avg_completion_hrs = round(
             sum(
-                task["actualHours"]
-                for task in done_tasks
-            )
-            / len(done_tasks),
+                t["actualHours"]
+                for t in done_tasks
+            ) / len(done_tasks),
             2
         )
 
     else:
-
         avg_completion_hrs = 0
 
+
+    # --------------------------------------------------
+    # Attendance
+    # --------------------------------------------------
 
     present = attendance.get(
         "presentDays",
@@ -219,12 +207,15 @@ async def get_personality(uid: str):
     )
 
 
-    # Count unique projects
+    # --------------------------------------------------
+    # Projects
+    # --------------------------------------------------
+
     projects = len(
         set(
-            task.get("project")
-            for task in tasks
-            if task.get("project")
+            t.get("project")
+            for t in tasks
+            if t.get("project")
         )
     )
 
@@ -234,6 +225,10 @@ async def get_personality(uid: str):
         0
     )
 
+
+    # --------------------------------------------------
+    # On-time percentage
+    # --------------------------------------------------
 
     done = tp.get(
         "doneTasks",
@@ -254,29 +249,26 @@ async def get_personality(uid: str):
         )
 
     else:
-
         ontime_pct = 0
 
 
-    # ----------------------------------------------
-    # Prepare ML Input
-    # ----------------------------------------------
+    # --------------------------------------------------
+    # Model input
+    # --------------------------------------------------
 
-    features = np.array([
-        [
-            tasks_completed,
-            avg_completion_hrs,
-            att_pct,
-            projects,
-            avg_hours,
-            ontime_pct
-        ]
-    ])
+    features = np.array([[
+        tasks_completed,
+        avg_completion_hrs,
+        att_pct,
+        projects,
+        avg_hours,
+        ontime_pct
+    ]])
 
 
-    # ----------------------------------------------
+    # --------------------------------------------------
     # Prediction
-    # ----------------------------------------------
+    # --------------------------------------------------
 
     pred_encoded = personality_model.predict(
         features
@@ -291,22 +283,25 @@ async def get_personality(uid: str):
     )[0]
 
 
-    # ----------------------------------------------
+    # --------------------------------------------------
     # Probabilities
-    # ----------------------------------------------
+    # --------------------------------------------------
 
     prob_dict = {
         personality_encoder.classes_[i]:
-        round(float(probabilities[i]) * 100, 2)
+        round(
+            float(probabilities[i]) * 100,
+            2
+        )
         for i in range(
             len(personality_encoder.classes_)
         )
     }
 
 
-    # ----------------------------------------------
+    # --------------------------------------------------
     # Metadata
-    # ----------------------------------------------
+    # --------------------------------------------------
 
     meta = PERSONALITY_META.get(
         personality,
@@ -317,40 +312,23 @@ async def get_personality(uid: str):
     )
 
 
-    # ----------------------------------------------
+    # --------------------------------------------------
     # Response
-    # ----------------------------------------------
+    # --------------------------------------------------
 
     return {
-
         "uid": uid,
-
         "personality": personality,
-
         "emoji": meta["emoji"],
-
         "description": meta["description"],
-
         "probabilities": prob_dict,
 
         "input_features": {
-
-            "tasks_completed":
-                tasks_completed,
-
-            "avg_completion_hrs":
-                avg_completion_hrs,
-
-            "attendance":
-                att_pct,
-
-            "projects":
-                projects,
-
-            "avg_hours":
-                avg_hours,
-
-            "ontime_pct":
-                ontime_pct
+            "tasks_completed": tasks_completed,
+            "avg_completion_hrs": avg_completion_hrs,
+            "attendance": att_pct,
+            "projects": projects,
+            "avg_hours": avg_hours,
+            "ontime_pct": ontime_pct
         }
     }

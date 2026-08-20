@@ -8,31 +8,26 @@ from sklearn.metrics import classification_report
 from sklearn.preprocessing import LabelEncoder
 
 
-# Get project root directory
-BASE_DIR = os.path.dirname(
-    os.path.dirname(
-        os.path.dirname(os.path.abspath(__file__))
-    )
-)
+# --------------------------------------------------
+# Paths
+# --------------------------------------------------
 
-# File paths
-DATASET_PATH = os.path.join(
-    BASE_DIR,
-    "ml",
-    "burnout",
-    "dataset.csv"
-)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-MODEL_PATH = os.path.join(
-    BASE_DIR,
-    "ml",
-    "burnout",
-    "burnout_model.pkl"
-)
+DATASET_PATH = os.path.join(BASE_DIR, "dataset.csv")
+MODEL_PATH = os.path.join(BASE_DIR, "burnout_model.pkl")
 
 
+# --------------------------------------------------
 # Load dataset
+# --------------------------------------------------
+
 df = pd.read_csv(DATASET_PATH)
+
+
+# --------------------------------------------------
+# Features
+# --------------------------------------------------
 
 features = [
     "avgHours",
@@ -50,21 +45,31 @@ X = df[features]
 y = df["burnout"]
 
 
+# --------------------------------------------------
 # Encode target labels
-le = LabelEncoder()
-y_encoded = le.fit_transform(y)
+# --------------------------------------------------
+
+encoder = LabelEncoder()
+y_encoded = encoder.fit_transform(y)
 
 
-# Train-test split
+# --------------------------------------------------
+# Train/Test Split
+# --------------------------------------------------
+
 X_train, X_test, y_train, y_test = train_test_split(
     X,
     y_encoded,
     test_size=0.2,
-    random_state=42
+    random_state=42,
+    stratify=y_encoded
 )
 
 
-# Train model
+# --------------------------------------------------
+# Train Random Forest
+# --------------------------------------------------
+
 model = RandomForestClassifier(
     n_estimators=100,
     random_state=42
@@ -73,27 +78,36 @@ model = RandomForestClassifier(
 model.fit(X_train, y_train)
 
 
-# Evaluate
+# --------------------------------------------------
+# Evaluation
+# --------------------------------------------------
+
 y_pred = model.predict(X_test)
 
+print("\nBurnout Model Evaluation:")
 print(
     classification_report(
         y_test,
         y_pred,
-        target_names=le.classes_
+        target_names=encoder.classes_
     )
 )
 
 
+# --------------------------------------------------
 # Save model + encoder
+# --------------------------------------------------
+
 with open(MODEL_PATH, "wb") as f:
     pickle.dump(
         {
             "model": model,
-            "encoder": le,
+            "encoder": encoder,
             "features": features
         },
         f
     )
 
-print(f"Model saved to: {MODEL_PATH}")
+
+print(f"\nModel saved successfully to:")
+print(MODEL_PATH)
