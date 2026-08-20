@@ -1,6 +1,6 @@
+import os
 import pandas as pd
 import pickle
-from pathlib import Path
 
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
@@ -8,22 +8,32 @@ from sklearn.metrics import classification_report
 from sklearn.preprocessing import LabelEncoder
 
 
-# Project root directory
-BASE_DIR = Path(__file__).resolve().parents[2]
+# Get project root directory
+BASE_DIR = os.path.dirname(
+    os.path.dirname(
+        os.path.dirname(os.path.abspath(__file__))
+    )
+)
 
 # File paths
-DATASET_PATH = BASE_DIR / "ml" / "burnout" / "dataset.csv"
-MODEL_PATH = BASE_DIR / "ml" / "burnout" / "burnout_model.pkl"
+DATASET_PATH = os.path.join(
+    BASE_DIR,
+    "ml",
+    "burnout",
+    "dataset.csv"
+)
+
+MODEL_PATH = os.path.join(
+    BASE_DIR,
+    "ml",
+    "burnout",
+    "burnout_model.pkl"
+)
 
 
 # Load dataset
 df = pd.read_csv(DATASET_PATH)
 
-print(f"Dataset loaded: {DATASET_PATH}")
-print(f"Dataset shape: {df.shape}")
-
-
-# Features used for prediction
 features = [
     "avgHours",
     "totalHours",
@@ -36,8 +46,6 @@ features = [
     "overdueTasks"
 ]
 
-
-# Prepare input and target
 X = df[features]
 y = df["burnout"]
 
@@ -47,7 +55,7 @@ le = LabelEncoder()
 y_encoded = le.fit_transform(y)
 
 
-# Split dataset
+# Train-test split
 X_train, X_test, y_train, y_test = train_test_split(
     X,
     y_encoded,
@@ -56,7 +64,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 )
 
 
-# Create and train model
+# Train model
 model = RandomForestClassifier(
     n_estimators=100,
     random_state=42
@@ -65,10 +73,9 @@ model = RandomForestClassifier(
 model.fit(X_train, y_train)
 
 
-# Evaluate model
+# Evaluate
 y_pred = model.predict(X_test)
 
-print("\nBurnout Model Evaluation:")
 print(
     classification_report(
         y_test,
@@ -78,7 +85,7 @@ print(
 )
 
 
-# Save model and label encoder
+# Save model + encoder
 with open(MODEL_PATH, "wb") as f:
     pickle.dump(
         {
@@ -89,5 +96,4 @@ with open(MODEL_PATH, "wb") as f:
         f
     )
 
-
-print(f"\nModel saved successfully to: {MODEL_PATH}")
+print(f"Model saved to: {MODEL_PATH}")
