@@ -3,6 +3,7 @@ import requests
 import pandas as pd
 import plotly.express as px
 from styles import dark_chart_layout
+import os
 
 API_BASE = os.getenv(
     "API_BASE",

@@ -2,6 +2,7 @@ import streamlit as st
 import requests
 import pandas as pd
 import plotly.express as px
+import os
 from styles import dark_chart_layout
 
 API_BASE = os.getenv(

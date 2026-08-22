@@ -4,6 +4,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 from styles import dark_chart_layout
+import os
 
 API_BASE = os.getenv(
     "API_BASE",
