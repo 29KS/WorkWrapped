@@ -7,7 +7,7 @@ from backend.routes import (
     auth,personality,wrapped
 )
 
-app = FastAPI(title="EffiTrack API")
+app = FastAPI(title="WorkWrapped API")
 
 app.add_middleware(
     CORSMiddleware,
@@ -32,4 +32,4 @@ app.include_router(wrapped.router)
 
 @app.get("/")
 async def root():
-    return {"message": "EffiTrack API is running"}
+    return {"message": "WorkWrapped API is running"}
