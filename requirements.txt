@@ -1,21 +1,25 @@
 fastapi
 uvicorn[standard]
+
 motor
 pymongo
+
 pydantic
+python-dotenv
 
 streamlit
 requests
 plotly
+pandas
+numpy
 
 scikit-learn
-pandas
-
-passlib[bcrypt]
-python-jose[cryptography]
-
-google-genai
-python-dotenv
+scipy
+joblib
 
 passlib[bcrypt]==1.7.4
 bcrypt==4.3.0
+
+python-jose[cryptography]
+
+google-genai
