@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 from styles import load_css
 
-API_BASE = "https://workwrapped-backend.onrender.com/"
+API_BASE = "https://workwrapped-backend.onrender.com"
 
 st.set_page_config(
     page_title="WorkWrapped",
