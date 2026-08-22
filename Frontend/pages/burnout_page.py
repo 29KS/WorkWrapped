@@ -5,7 +5,10 @@ import plotly.express as px
 import plotly.graph_objects as go
 from styles import dark_chart_layout
 
-API_BASE = "http://localhost:8000"
+API_BASE = os.getenv(
+    "API_BASE",
+    "http://localhost:8000"
+)
 
 @st.cache_data(ttl=60, show_spinner=False)  # cache for 60s, tune as needed
 def fetch_work_statistics(uid):
