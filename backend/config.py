@@ -1,6 +1,11 @@
-MONGO_URI = "mongodb://localhost:27017"
-DB_NAME = "effitrack"
+import os
+from dotenv import load_dotenv
 
-SECRET_KEY = "effitrack_secret_key_2026"
-ALGORITHM = "HS256"
+load_dotenv()
+
+MONGO_URI = os.getenv("MONGO_URI")
+DB_NAME = os.getenv("DB_NAME")
+
+SECRET_KEY = os.getenv("SECRET_KEY")
+ALGORITHM = os.getenv("ALGORITHM")
 ACCESS_TOKEN_EXPIRE_MINUTES = 60
