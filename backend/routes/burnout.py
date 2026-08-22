@@ -24,7 +24,7 @@ db = client[DB_NAME]
 # Model path
 # --------------------------------------------------
 
-BASE_DIR = Path(__file__).resolve().parents[2]
+BASE_DIR = Path(__file__).resolve().parents[1]
 
 MODEL_PATH = (
     BASE_DIR
